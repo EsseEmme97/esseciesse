@@ -1,0 +1,30 @@
+CRIPTARE CODICE CARTELLA ADMIN
+------------------------------
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it ;
+mkdir /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it ;
+cp -r /media/metropolis/smallville/carbonx/Hosts/pizetaexpress.it/admin/ /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/assets ;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/fancybox ;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/jqueryselect ;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/jquerysort ;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/tinymce ;
+rm -rf /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/img ;
+
+/home/carlo/sg15l/bin/sourceguardian --external pizetaexpress.lic --projid "f4hatvb4" --projkey "546aac\h" -p @/media/metropolis/smallville/carbonx/Hosts/pizetaexpress.it/admin/first.php -b-  -r --catch ERR_ALL=sg_error_handler "/media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/admin/*.php";
+
+/home/carlo/sg15l/bin/licgen --projid "f4hatvb4" --projkey "546aac\h" --expire 12/04/2025 --domain pizetaexpress.it /media/metropolis/smallville/carbonx/Hosts/pizetaexpressenc.it/pizetaexpress.lic ;
+
+
+(controllare *.lic se è in root cartella cliente)
+
+
+se ho sempre collegamento a web
+--time-server  0.it.pool.ntp.org,3.europe.pool.ntp.org,2.europe.pool.ntp.org,0.fr.pool.ntp.org,1.fr.pool.ntp.org,2.fr.pool.ntp.org,3.fr.pool.ntp.org
+
+--mac 00:1F:C6:EE:11:9A
+--days 365
+
+PASSWORD CARTELLA ADMIN (.HTACCESS)
+-----------------------------------
+cd /smallville/carbonx/Hosts/pizetaexpress.it/inc/
+/smallville/carbonx/Programs/apache2/bin/htpasswd -c .passadmin pizeta
