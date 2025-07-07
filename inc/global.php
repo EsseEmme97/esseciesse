@@ -1,4 +1,4 @@
-<?
+<?php
 $BaseDir = $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME'].substr($_SERVER["SCRIPT_NAME"], 0, strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 $_pagina_corrente = basename($_SERVER['SCRIPT_NAME']); 
 $pageurlseolan=$_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/";
