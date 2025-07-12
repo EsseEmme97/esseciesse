@@ -129,13 +129,13 @@ ul li {
   list-style: none;
 }
 a {
-  color: var(--medium-gray);
+  color: var(--white);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
 }
 a:hover {
-  color: var(--base-color);
+  color: var(--white);
   text-decoration: none;
 }
 p {
