@@ -22,10 +22,10 @@ $heightseox = "115";
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="<?= $pathindex ?>assets/images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="<?= $pathindex ?>assets/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?= $pathindex ?>assets/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="<?= $pathindex ?>assets/images/global/favicon/SCS-favicon.ico">
+    <link rel="apple-touch-icon" href="<?= $pathindex ?>assets/images/global/favicon/SCS-favicon.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?= $pathindex ?>assets/images/global/favicon/SCS-favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?= $pathindex ?>assets/images/global/favicon/SCS-favicon.ico">
     <!-- style sheets and font icons -->
     <link rel="stylesheet" href="<?= $pathindex ?>assets/css/vendors.min.css" />
     <link rel="stylesheet" href="<?= $pathindex ?>assets/css/icon.min.css" />
@@ -59,7 +59,7 @@ $heightseox = "115";
             </div>
         </div>
     </section>
-
+    <!-- ==================== End navbar ==================== -->
     <section class="big-section">
         <div class="container">
             <div class="row">
@@ -102,7 +102,7 @@ $heightseox = "115";
                     </div>
                     <div class="feature-box-content">
                         <span class="d-inline-block h4 fw-700 mb-5px">Puntualità</span>
-                        <p class="w-80 xl-w-90 lg-w-100">Puntualità Lorem ipsum dolor sit amet tempo</p>
+                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
                     </div>
                 </div>
             </div>
@@ -111,11 +111,11 @@ $heightseox = "115";
             <div class="col icon-with-text-style-01 md-mb-30px">
                 <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                     <div class="feature-box-icon me-20px">
-                        <img src="https://placehold.co/80x80" alt="" />
+                        <img src="<?= $pathindex ?>assets/images/icon set/punti di forza/flessibilita.svg" alt="flessibilità" />
                     </div>
                     <div class="feature-box-content">
-                        <span class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Cost savings ideas</span>
-                        <p class="w-80 xl-w-90 lg-w-100">We also help our clients with social media strategy.</p>
+                        <span class="d-inline-block h4 fw-700 mb-5px">Flessibilità</span>
+                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
                     </div>
                 </div>
             </div>
@@ -124,11 +124,11 @@ $heightseox = "115";
             <div class="col icon-with-text-style-01 md-mb-30px">
                 <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                     <div class="feature-box-icon me-20px">
-                        <img src="https://placehold.co/80x80" alt="" />
+                        <img src="<?= $pathindex ?>assets/images/icon set/punti di forza/lavori-su-misura.svg" alt="lavori su misura" />
                     </div>
                     <div class="feature-box-content">
-                        <span class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Boost performance</span>
-                        <p class="w-80 xl-w-90 lg-w-100">We deliver email marketing campaigns to your audience.</p>
+                        <span class="d-inline-block h4 fw-700 mb-5px">Lavori su misura</span>
+                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,82 @@ $heightseox = "115";
     </section>
     <!-- end section -->
 
-    <!-- ==================== End Navbar ==================== -->
+    <section class="bg-light-gray">
+        <div class="container">
+            <h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                <? $data = [["title" => "Packaging", "image" => "assets/images/icon set/settori/packaging.svg"], ["title" => "Alimentare", "image" => "assets/images/icon set/settori/alimentare.svg"], ["title" => "Nautico", "image" => "assets/images/icon set/settori/nautico.svg"], ["title" => "Automotive", "image" => "assets/images/icon set/settori/automotive.svg"]] ?>
+                <? foreach ($data as $element): ?>
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all <?= $i == 0 ? "border-start" : "" ?> border-end border-dark-subtle">
+                        <div class="feature-box hover-box h-100 transition pt-25 pb-25 xs-p-12 last-paragraph-no-margin overflow-hidden">
+                            <div class="feature-box-icon">
+                                <img src="<?= $pathindex . $element["image"] ?>" alt="icona settore">
+                            </div>
+                            <div class="feature-box-content mt-20px">
+                                <span class="d-inline-block fw-900 h4"><?= $element["title"] ?></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                <? endforeach ?>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-0 bg-orange">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden position-relative">
+        <div class="container">
+            <div class="row align-items-center mb-5 sm-mb-30px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="col-lg-5 md-mb-30px">
+                    <h2 class="fw-700 ls-minus-2px mb-0">Sbircia qui i nostri lavori migliori</h2>
+                </div>
+                <div class="col-lg-4 offset-xl-1 last-paragraph-no-margin md-mb-30px">
+                    <p>Lavorazioni tradizionali con centri di lavoro CNC e pantografi CNC, per produzioni più precise.</p>
+                    <div class="mt-5">
+                        <a href="" class="btn-esseciesse-primary">
+                            <span>Vedi di più</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center" data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="col-12">
+                    <div class="outside-box-right-20 sm-outside-box-right-0">
+                        <div class="swiper magic-cursor slider-one-slide" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                            <div class="swiper-wrapper">
+                                <? $labels = ["automotive", "nautico", "packaging", "alimentare"] ?>
+                                <? for ($i = 0; $i < count($labels) * 2; $i++): ?>
+                                    <? $index = $i % count($labels) ?>
+                                    <!-- start slider item -->
+                                    <div class="swiper-slide">
+                                        <!-- start services box style -->
+                                        <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
+                                            <div class="position-relative">
+                                                <a href="demo-it-business-services-details.html"><img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="immagine-realizzazione"></a>
+                                                <a href="#" class="btn btn-very-small btn-rounded bg-orange-gradient text-white ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></a>
+                                            </div>
+                                        </div>
+                                        <!-- end services box style -->
+                                    </div>
+                                    <!-- end slider item -->
+                                <? endfor ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
 
     <!-- ==================== Start Footer ==================== -->
     <? require_once("inc/htmlcx/footer-ita.php") ?>

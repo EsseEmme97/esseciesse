@@ -172,6 +172,7 @@ p{
 header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   color: var(--white);
 }
+
 /* accordion style 02 */
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
   background-color: var(--dark-gray);
@@ -223,10 +224,17 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   align-items: center;
   transition: all 0.3s linear;
   text-transform: uppercase;
+  color: white;
 }
 
 .btn-esseciesse-primary:hover {
   background: linear-gradient(to right, #d35229, #ef7d26);
+  color: white;
+}
+
+.btn-esseciesse-primary span {
+  color: var(--white);
+  font-weight: 500;
 }
 
 .btn-esseciesse-secondary {
@@ -241,13 +249,18 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   text-transform: uppercase;
 }
 
+.btn-esseciesse-secondary span {
+  color: var(--white);
+  font-weight: 500;
+}
+
 .btn-esseciesse-secondary:hover {
   background-color: white;
   color: var(--dark-gray);
 }
 
 .btn-esseciesse-secondary:hover span {
-  color: inherit;
+  color: var(--dark-gray);
 }
 
 /* bg gradient color */
@@ -263,6 +276,15 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
     rgba(255, 255, 255, 0)
   );
 }
+
+.bg-orange{
+    background-color: var(--orange900);
+}
+
+.bg-orange-gradient{
+    background: linear-gradient(to right, #ef7d26, #d35229);
+}
+
 .bg-gradient-very-light-gray-transparent {
   background: -webkit-linear-gradient(
     right,

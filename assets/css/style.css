@@ -129,13 +129,13 @@ ul li {
   list-style: none;
 }
 a {
-  color: var(--white);
+  color: inherit;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
 }
 a:hover {
-  color: var(--white);
+  color: var(--orange600)!important;
   text-decoration: none;
 }
 p {
@@ -630,7 +630,7 @@ b, strong {
   color: var(--majorelle-blue);
 }
 .text-orange {
-  color: var(--orange);
+  color: var(--orange900);
 }
 .text-crusoe-green {
   color: var(--crusoe-green);
@@ -3217,7 +3217,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   background-color: var(--extra-medium-gray);
 }
 .bg-light-gray {
-  background-color: var(--light-gray);
+  background-color: var(--gray200);
 }
 .bg-very-light-gray {
   background-color: var(--very-light-gray);
@@ -7127,9 +7127,9 @@ header.sticky .navbar.disable-fixed {
 .navbar .navbar-nav .nav-item > i {
   display: none;
 }
-.navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
+/* .navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
   opacity: 0.6;
-}
+} */
 .navbar .navbar-nav .nav-item .nav-link.active {
   opacity: 0.6;
 }
