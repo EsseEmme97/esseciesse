@@ -4,7 +4,7 @@ function setActiveLink($pages)
 {
     $current_page = basename($_SERVER["SCRIPT_NAME"]);
     if (in_array($current_page, $pages)) {
-        echo "attivo";
+        echo "text-orange";
     }
 }
 
@@ -16,10 +16,10 @@ function setActiveLink($pages)
             <nav class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse glass-effect" data-header-hover="light">
                 <div class="container-fluid">
                     <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-                        <a class="navbar-brand" href="demo-it-business.html">
-                            <img src="images/demo-it-business-logo-white.png" data-at2x="images/demo-it-business-logo-white@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="mobile-logo"> 
+                        <a class="navbar-brand" href="<?= $pathindex ?>">
+                            <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" alt="logo" class="default-logo">
+                            <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" alt="logo" class="alt-logo">
+                            <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo.svg" alt="logo" class="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
@@ -31,10 +31,10 @@ function setActiveLink($pages)
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
                             <ul class="navbar-nav"> 
-                                <li class="nav-item"><a href="demo-it-business.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-it-business-about.html" class="nav-link">Su di noi</a></li> 
-                                <li class="nav-item"><a href="demo-it-business-about.html" class="nav-link">Alluminio</a></li>
-                                <li class="nav-item"><a href="demo-it-business-contact.html" class="nav-link">Contatti</a></li>
+                                <li class="nav-item"><a href="<?= $pathindex ?>" class="nav-link <?= setActiveLink(["index.php"]) ?>">Home</a></li>
+                                <li class="nav-item"><a href="<?= $pathindex ?>azienda" class="nav-link <?= setActiveLink(["azienda.php"]) ?>">Su di noi</a></li> 
+                                <li class="nav-item"><a href="<?= $pathindex ?>alluminio" class="nav-link <?= setActiveLink(["singolo-prodotto.php"]) ?>">Alluminio</a></li>
+                                <li class="nav-item"><a href="<?= $pathindex ?>contatti" class="nav-link <?= setActiveLink(["contatti.php"]) ?>">Contatti</a></li>
                             </ul>
                         </div>
                     </div>

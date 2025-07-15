@@ -173,6 +173,7 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   color: var(--white);
 }
 
+
 /* accordion style 02 */
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
   background-color: var(--dark-gray);
@@ -262,6 +263,14 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
 .btn-esseciesse-secondary:hover span {
   color: var(--dark-gray);
 }
+
+.materials{
+  border-bottom: 1px solid var(--gray400);
+  color: var(--gray900);
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 /* bg gradient color */
 .bg-gradient-dark-gray-transparent {
