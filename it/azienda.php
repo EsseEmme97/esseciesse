@@ -48,59 +48,8 @@ $heightseox = "115";
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
-	<section class="pt-3 sm-pt-50px pb-0">
-        <div class="container">
-            <div class="row mb-10 align-items-center">
-                <div class="col-lg-5 position-relative md-mb-20">
-                    <div class="w-70 xs-w-80" data-animation-delay="50" data-shadow-animation="true">
-                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="service-image" class="border-radius-8px w-100">
-                    </div>
-                    <div class="w-60 overflow-hidden position-absolute right-minus-15px xs-right-15px xs-w-60 bottom-minus-50px" data-shadow-animation="true" data-animation-delay="250" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_2.webp" alt="service-image" class="border-radius-8px w-100 box-shadow-quadruple-large" />
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h3 class="text-dark-gray fw-900 h2 ls-minus-2px">Cenni biografici</h3>
-                    <p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
-                    <p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-	<section class="pt-0 sm-pt-50px">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px " data-shadow-animation="true" data-animation-delay="500"><span class="text-highlight">Dinamicità<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span>, <span class="text-highlight">flessibilità<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> e <span class="text-highlight">puntualità<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> sono le basi su cui si fonda la nostra <span class="text-highlight">giovane impresa<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span>, in continua espansione e che guarda verso il progresso.</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-	<section class="p-0 bg-orange">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
-            </div>
-        </div>
-    </section>
-
-	<section>
-		<div class="container">
-			<h2 class="fw-900">La nostra gamma di alluminio e leghe</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-			<? for($i=0; $i<7; $i++): ?>
-			<div class="d-flex justify-content-between materials mt-40px">
-				<span class="fw-900"><?= rand(1000,9999) ?></span>
-				<span>Lega di Alluminio</span>
-				<span>We were making our way to the Rila Mountains, where we enjoyed our scrambled eggs.</span>
-			</div>
-			<? endfor ?>
-		</div>
-	</section>
-
+	
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once("../inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

@@ -34,6 +34,7 @@ function setActiveLink($pages)
                                 <li class="nav-item"><a href="<?= $pathindex ?>" class="nav-link <?= setActiveLink(["index.php"]) ?>">Home</a></li>
                                 <li class="nav-item"><a href="<?= $pathindex ?>azienda" class="nav-link <?= setActiveLink(["azienda.php"]) ?>">Su di noi</a></li> 
                                 <li class="nav-item"><a href="<?= $pathindex ?>alluminio" class="nav-link <?= setActiveLink(["singolo-prodotto.php"]) ?>">Alluminio</a></li>
+                                <li class="nav-item"><a href="<?= $pathindex ?>lavori" class="nav-link <?= setActiveLink(["realizzazioni.php"]) ?>">Lavori</a></li>
                                 <li class="nav-item"><a href="<?= $pathindex ?>contatti" class="nav-link <?= setActiveLink(["contatti.php"]) ?>">Contatti</a></li>
                             </ul>
                         </div>
