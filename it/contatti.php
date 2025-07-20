@@ -56,11 +56,7 @@ $heightseox = "115";
                         <p class="w-85 xl-w-90 xs-w-100">Lorem ipsum dolor sit amet, consectetur adipiscing finibus a purus at fermentum. Praesent vitae quam sed dui.</p>
                         <div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-auto">
                             <div class="feature-box-icon me-15px">
-                                <img src="https://placehold.co/100x62" alt="" >
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="text-dark-gray fs-19 fw-600 d-block">Call us directly</span>
-                                <span>+1 234 567 8910</span>
+                                <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo image" >
                             </div>
                         </div>
                     </div>
@@ -108,7 +104,7 @@ $heightseox = "115";
                                 </div>
                                 <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-25px">
                                     <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
-                                    <button class="btn btn-small btn-dark-gray btn-box-shadow btn-round-edge text-transform-none primary-font submit" type="submit">Send message</button>
+                                    <button class="btn-esseciesse-primary no-border" type="submit"><span>Send message</span></button>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-results mt-20px d-none"></div>
@@ -119,6 +115,10 @@ $heightseox = "115";
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="pb-0 lh-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.724588459427!2d11.303668975774364!3d45.71656171656601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778b336bc26a56b%3A0x7617e6a87db9b1a7!2sESSECIESSE%20srl!5e0!3m2!1sit!2sit!4v1752957872780!5m2!1sit!2sit" style="border:0; width: 100%; height: 50vh;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 	

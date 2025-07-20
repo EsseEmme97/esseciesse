@@ -173,6 +173,10 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   color: var(--white);
 }
 
+.no-border{
+  border-color: transparent !important;
+}
+
 
 /* accordion style 02 */
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
