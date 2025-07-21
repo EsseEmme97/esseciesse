@@ -275,6 +275,13 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   margin-top: 20px;
 }
 
+.color-dark-gray{
+  color:#383838;
+}
+
+.text-18{
+  font-size: 18px;
+}
 
 /* bg gradient color */
 .bg-gradient-dark-gray-transparent {
