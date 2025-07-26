@@ -48,67 +48,55 @@ $heightseox = "115";
         </div>
     </section>
     <!-- ==================== End navbar ==================== -->
-    <section class="position-relative">
+    <section class="position-relative bg-light-gray">
         <div class="container">
             <div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                 <div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">
-                    <h3 class="fw-700 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">We'd love to hear from you.</h3>
-                    <p class="w-85 xl-w-90 xs-w-100">Lorem ipsum dolor sit amet, consectetur adipiscing finibus a purus at fermentum. Praesent vitae quam sed dui.</p>
+                    <h3 class="fw-900 h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
+                    <p class="w-85 xl-w-90 xs-w-100">Allega un file cad per ricevere un'offerta più rapidamente</p>
                     <div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-auto">
-                        <div class="feature-box-icon me-15px">
-                            <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo image">
+                        <div class="feature-box-icon me-15px d-flex align-items-center p-4 gap-4 bg-white rounded shadow">
+                            <img src="<?= $pathindex ?>assets/images/global/recapiti/telefono.svg" alt="icona telefono">
+                            <div>
+                                <span class="d-block text-18 color-dark-gray">Oppure chiama</span>
+                                <a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-900">0445 827253</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7 offset-xxl-1">
                     <!-- start contact form -->
-                    <form action="email-templates/contact-form.php" method="post" class="contact-form-style-03">
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 xs-mb-30px">
-                                <label for="exampleInputEmail1" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Enter your name*</label>
-                                <div class="position-relative form-group mb-25px xs-mb-0">
-                                    <span class="form-icon"><i class="bi bi-emoji-smile text-dark-gray"></i></span>
-                                    <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail1" type="text" name="name" placeholder="What's your good name?" />
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="nome">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="cognome">Cognome</label>
+                                <input type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-lg-6 h-100">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="email">
+                                </div>
+                                <div class="form-group mt-5">
+                                    <label for="allegato">Allegato</label>
+                                    <input type="file" name="allegato" class="form-control" id="nome" aria-describedby="allegato" placeholder="Scegli allegato">
                                 </div>
                             </div>
-                            <div class="col-md-6 xs-mb-30px">
-                                <label for="exampleInputEmail1" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Phone number</label>
-                                <div class="position-relative form-group mb-25px xs-mb-0">
-                                    <span class="form-icon"><i class="bi bi-telephone text-dark-gray"></i></span>
-                                    <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="exampleInputEmail2" type="tel" name="phone" placeholder="Enter your phone number" />
-                                </div>
+                            <div class="form-group col-lg-6">
+                                <label for="messaggio">Inserisci il tuo messaggio</label>
+                                <textarea style="height: 80%;" class="form-control" name="messaggio" id="messaggio" placeholder="messaggio"></textarea>
                             </div>
-                            <div class="col-md-6 xs-mb-30px">
-                                <label for="exampleInputEmail1" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Email address*</label>
-                                <div class="position-relative form-group mb-25px xs-mb-0">
-                                    <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
-                                    <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail3" type="email" name="email" placeholder="Enter your email address" />
-                                </div>
-                            </div>
-                            <div class="col-md-6 xs-mb-30px">
-                                <label for="exampleInputEmail1" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Subject</label>
-                                <div class="position-relative form-group mb-25px xs-mb-0">
-                                    <span class="form-icon"><i class="bi bi-journals text-dark-gray"></i></span>
-                                    <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="exampleInputEmail4" type="text" name="subject" placeholder="How can we help you?" />
-                                </div>
-                            </div>
-                            <div class="col-12 mb-4 xs-mb-30px">
-                                <label for="exampleInputEmail1" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Your message</label>
-                                <div class="position-relative form-group form-textarea mb-0">
-                                    <textarea class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" name="comment" placeholder="Describe about your project" rows="4"></textarea>
-                                    <span class="form-icon"><i class="bi bi-chat-square-dots text-dark-gray"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-md-7 col-sm-10">
-                                <p class="mb-0 fs-14 lh-24 text-center text-md-start">We will never collect information about you without your explicit consent.</p>
-                            </div>
-                            <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-25px">
-                                <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
-                                <button class="btn-esseciesse-primary no-border" type="submit"><span>Send message</span></button>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-results mt-20px d-none"></div>
-                            </div>
+                        </div>
+                        <div class="mt-5 ">
+                            <button type="submit" class="btn-esseciesse-primary no-border">
+                                <span>Invia</span>
+                            </button>
                         </div>
                     </form>
                     <!-- end contact form -->
@@ -117,7 +105,7 @@ $heightseox = "115";
         </div>
     </section>
 
-    <section class="pb-0 lh-0">
+    <section class="py-0 lh-0">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.724588459427!2d11.303668975774364!3d45.71656171656601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778b336bc26a56b%3A0x7617e6a87db9b1a7!2sESSECIESSE%20srl!5e0!3m2!1sit!2sit!4v1752957872780!5m2!1sit!2sit" style="border:0; width: 100%; height: 50vh;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
@@ -136,6 +124,61 @@ $heightseox = "115";
     <script type="text/javascript" src="<?= $pathindex ?>assets/js/jquery.js"></script>
     <script type="text/javascript" src="<?= $pathindex ?>assets/js/vendors.min.js"></script>
     <script type="text/javascript" src="<?= $pathindex ?>assets/js/main.js"></script>
+    <script>
+		$(function() {
+			$('form').on('submit', function(e) {
+				e.preventDefault(); // Previene l'invio se ci sono errori
+
+				let isValid = true;
+
+				// Rimuove eventuali errori precedenti
+				$('.form-control').removeClass('is-invalid');
+
+				// Nome
+				const nome = $('#nome').val().trim();
+				if (nome === '') {
+					$('#nome').addClass('is-invalid');
+					isValid = false;
+				}
+
+				// Cognome
+				const cognome = $('#cognome').val().trim();
+				if (cognome === '') {
+					$('#cognome').addClass('is-invalid');
+					isValid = false;
+				}
+
+				// Email
+				const email = $('#email').val().trim();
+				const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				if (!emailRegex.test(email)) {
+					$('#email').addClass('is-invalid');
+					isValid = false;
+				}
+
+				// Messaggio
+				const messaggio = $('#messaggio').val().trim();
+				if (messaggio === '') {
+					$('#messaggio').addClass('is-invalid');
+					isValid = false;
+				}
+
+				// Allegato (facoltativo — se vuoi renderlo obbligatorio, decommenta)
+				/*
+				const allegato = $('#allegato').val().trim();
+				if (allegato === '') {
+				    $('#allegato').addClass('is-invalid');
+				    isValid = false;
+				}
+				*/
+
+				// Se tutto è valido, puoi inviare il form (es: via AJAX o con submit normale)
+				if (isValid) {
+					this.submit(); // o gestisci con AJAX
+				}
+			});
+		});
+	</script>
 </body>
 
 </html>

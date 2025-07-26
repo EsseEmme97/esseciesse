@@ -1,31 +1,31 @@
 <!-- start footer -->
 <footer class="p-0 footer-light position-relative bg-light-gray">
     <div class="container position-relative">
-        <div class="row pt-5 sm-pt-40px justify-content-between">
+        <div class="row pt-5 sm-pt-40px justify-content-lg-between">
             <!-- start footer column -->
-            <div class="col-6 col-xl-6 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
-                <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block">
+            <div class="col-12 col-lg-3 last-paragraph-no-margin text-lg-start text-center order-sm-1 lg-mb-50px sm-mb-30px">
+                <a href="<?= $pathindex ?>" class="footer-logo mb-15px d-inline-block">
                     <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="assets\images\global\logo\SCS-logo.svg" alt="logo image">
                 </a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-6 col-xl-1 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                <a href="<?= $pathindex ?>" class="fw-600 d-block text-dark-gray mb-5px">Home</a>
+            <div class="col-12 col-xl-1 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+                <a href="<?= $pathindex ?>" class="fw-600 d-block text-dark-gray mb-5px text-center text-lg-start">Home</a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-6 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
+            <div class="col-12 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3 text-center text-lg-start">
                 <a href="<?= $pathindex ?>azienda" class="fw-600 d-block text-dark-gray mb-5px">Su di noi</a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-6 col-xl-1 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
+            <div class="col-12 col-xl-1 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4 text-center text-lg-start">
                 <a href="<?= $pathindex ?>lavori" class="fw-600 d-block text-dark-gray mb-5px">Lavori</a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-xl-1 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
+            <div class="col-12 col-xl-1 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5 text-center text-lg-start">
                 <a href="<?= $pathindex ?>contatti" class="fw-600 d-block text-dark-gray mb-5px">Contatti</a>
             </div>
             <!-- end footer column -->

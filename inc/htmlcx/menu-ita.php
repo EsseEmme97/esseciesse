@@ -41,7 +41,7 @@ function setActiveLink($pages)
                     </div>
                     <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
                         <div class="header-icon">
-                            <div class="header-button"><a href="demo-it-business-contact.html" class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Italiano</a></div>
+                            <div class="header-button"><a href="demo-it-business-contact.html" class="btn btn-large btn-outline-orange btn-rounded text-transform-none border-1">Italiano</a></div>
                         </div>  
                     </div>
                 </div>

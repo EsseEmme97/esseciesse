@@ -142,7 +142,7 @@ $heightseox = "115";
         <div class="container">
             <div class="d-flex justify-content-between">
                 <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
+                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
             </div>
         </div>
     </section>

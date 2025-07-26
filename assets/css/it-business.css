@@ -232,6 +232,15 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   color: white;
 }
 
+.btn-outline-orange{
+  border-color: var(--orange900);
+  color: var(--orange900);
+}
+
+.btn-outline-orange:hover{
+  background-color: #fff;
+}
+
 .btn-esseciesse-primary:hover {
   background: linear-gradient(to right, #d35229, #ef7d26);
   color: white;

@@ -48,10 +48,10 @@ $heightseox = "115";
                     <h1 class="mb-25px text-uppercase">Lavorazioni Alluminio e leghe</h1>
                     <p class="text-white">Sperimentiamo e lavoriamo tramite macchinari ad alto taso innovativo e tecnologico</p>
                     <div class="d-flex gap-2">
-                        <a href="index.html" target="blank" class="btn-esseciesse-primary">
+                        <a href="<?= $pathindex ?>" class="btn-esseciesse-primary">
                             <span>su di noi</span>
                         </a>
-                        <a href="demo-it-business-contact.html" class="btn-esseciesse-secondary">
+                        <a href="<? $pathindex ?>contatti" class="btn-esseciesse-secondary">
                             <span>contattaci</span>
                         </a>
                     </div>
@@ -75,10 +75,10 @@ $heightseox = "115";
             <div class="row mb-10 align-items-center">
                 <div class="col-lg-5 position-relative md-mb-20">
                     <div class="w-70 xs-w-80" data-animation-delay="50" data-shadow-animation="true">
-                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="service-image" class="border-radius-8px w-100">
+                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="immagine servizio" class="border-radius-8px w-100">
                     </div>
                     <div class="w-60 overflow-hidden position-absolute right-minus-15px xs-right-15px xs-w-60 bottom-minus-50px" data-shadow-animation="true" data-animation-delay="250" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_2.webp" alt="service-image" class="border-radius-8px w-100 box-shadow-quadruple-large" />
+                        <img src="<?= $pathindex ?>assets/images/home/intro/home-intro_2.webp" alt="immagine servizio" class="border-radius-8px w-100 box-shadow-quadruple-large" />
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -86,7 +86,7 @@ $heightseox = "115";
                     <p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio.</p>
                     <p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
                     <div class="mt-40px">
-                        <a href="index.html" target="blank" class="btn-esseciesse-primary">
+                        <a href="<?= $pathindex ?>azienda" class="btn-esseciesse-primary">
                             <span>su di noi</span>
                         </a>
                     </div>
@@ -162,9 +162,9 @@ $heightseox = "115";
 
     <section class="p-0 bg-orange">
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
                 <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
+                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
             </div>
         </div>
     </section>
@@ -178,7 +178,7 @@ $heightseox = "115";
                 <div class="col-lg-4 offset-xl-1 last-paragraph-no-margin md-mb-30px">
                     <p>Lavorazioni tradizionali con centri di lavoro CNC e pantografi CNC, per produzioni più precise.</p>
                     <div class="mt-5">
-                        <a href="" class="btn-esseciesse-primary">
+                        <a href="<?= $pathindex ?>lavori" class="btn-esseciesse-primary">
                             <span>Vedi di più</span>
                         </a>
                     </div>
@@ -197,8 +197,8 @@ $heightseox = "115";
                                         <!-- start services box style -->
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
-                                                <a href="demo-it-business-services-details.html"><img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="immagine-realizzazione"></a>
-                                                <a href="#" class="btn btn-very-small btn-rounded bg-orange-gradient text-white ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></a>
+                                                <a href="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp"><img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="immagine-realizzazione"></a>
+                                                <span class="btn btn-very-small btn-rounded bg-orange-gradient text-white ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></span>
                                             </div>
                                         </div>
                                         <!-- end services box style -->
