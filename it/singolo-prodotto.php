@@ -80,9 +80,9 @@ $heightseox = "115";
 
 	<section class="p-0 bg-orange">
 		<div class="container">
-			<div class="d-flex justify-content-between">
+			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
 				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
+				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
 			</div>
 		</div>
 	</section>
@@ -159,11 +159,11 @@ $heightseox = "115";
 					<!-- start contact form -->
 					<form>
 						<div class="row">
-							<div class="form-group col-lg-6">
+							<div class="form-group col-lg-6 mt-5">
 								<label for="nome">Nome</label>
 								<input type="text" name="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="nome">
 							</div>
-							<div class="form-group col-lg-6">
+							<div class="form-group col-lg-6 mt-5">
 								<label for="cognome">Cognome</label>
 								<input type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
 							</div>
@@ -179,12 +179,12 @@ $heightseox = "115";
 									<input type="file" name="allegato" class="form-control" id="nome" aria-describedby="allegato" placeholder="Scegli allegato">
 								</div>
 							</div>
-							<div class="form-group col-lg-6">
+							<div class="form-group col-12 col-lg-6">
 								<label for="messaggio">Inserisci il tuo messaggio</label>
 								<textarea style="height: 80%;" class="form-control" name="messaggio" id="messaggio" placeholder="messaggio"></textarea>
 							</div>
 						</div>
-						<div class="mt-5 ">
+						<div class="mt-50px">
 							<button type="submit" class="btn-esseciesse-primary no-border">
 								<span>Invia</span>
 							</button>

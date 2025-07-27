@@ -82,6 +82,8 @@ Table of contents
   --gray900:#383838;
   --gray400:#9A9A9A;
   --gray200:#F2F2F2;
+  --button-width:165px;
+  --button-height: 50px;
 }
 /* ===================================
     03. Reset

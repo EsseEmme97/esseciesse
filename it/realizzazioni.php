@@ -139,13 +139,13 @@ $heightseox = "115";
 	</section>
 
 	<section class="p-0 bg-orange">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
-            </div>
-        </div>
-    </section>
+		<div class="container">
+			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
+				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
+			</div>
+		</div>
+	</section>
 
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once("../inc/htmlcx/footer-ita.php") ?>

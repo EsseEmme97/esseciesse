@@ -505,4 +505,20 @@ footer ul li {
   .portfolio-filter li {
     padding: 0;
   }
+
+   h1,
+  .h1 {
+    font-size: 48px;
+  }
+
+  .btn-esseciesse-primary {
+    width: calc(var(--button-width) * 0.75);
+    height: calc(var(--button-height) * 0.75);
+  }
+
+  .btn-esseciesse-secondary {
+    width: calc(var(--button-width) * 0.75);
+    height: calc(var(--button-height) * 0.75);
+  }
 }
+

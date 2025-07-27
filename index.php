@@ -93,7 +93,7 @@ $heightseox = "115";
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-70px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <!-- start features box item -->
             <div class="col icon-with-text-style-01 md-mb-30px">
                 <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
@@ -171,7 +171,7 @@ $heightseox = "115";
 
     <section class="overflow-hidden position-relative">
         <div class="container">
-            <div class="row align-items-center mb-5 sm-mb-30px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <div class="row align-items-center mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5 md-mb-30px">
                     <h2 class="fw-700 ls-minus-2px mb-0">Sbircia qui i nostri lavori migliori</h2>
                 </div>
