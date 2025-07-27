@@ -161,27 +161,27 @@ $heightseox = "115";
 						<div class="row">
 							<div class="form-group col-lg-6 mt-5">
 								<label for="nome">Nome</label>
-								<input type="text" name="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="nome">
+								<input type="text" name="nome" class="form-control p-3" id="nome" aria-describedby="nome" placeholder="nome">
 							</div>
 							<div class="form-group col-lg-6 mt-5">
 								<label for="cognome">Cognome</label>
-								<input type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
+								<input type="text" class="form-control p-3" name="cognome" id="cognome" placeholder="Cognome">
 							</div>
 						</div>
 						<div class="row mt-5">
 							<div class="col-lg-6 h-100">
 								<div class="form-group">
 									<label for="email">Email</label>
-									<input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="email">
+									<input type="email" class="form-control p-3" id="email" name="email" aria-describedby="email" placeholder="email">
 								</div>
-								<div class="form-group mt-5">
+								<div class="form-group mt-5 mt-lg-3">
 									<label for="allegato">Allegato</label>
-									<input type="file" name="allegato" class="form-control" id="nome" aria-describedby="allegato" placeholder="Scegli allegato">
+									<input type="file" name="allegato" class="form-control p-3" id="allegato" aria-describedby="allegato" placeholder="Scegli allegato">
 								</div>
 							</div>
-							<div class="form-group col-12 col-lg-6">
+							<div class="form-group col-12 col-lg-6 mt-5 mt-lg-0">
 								<label for="messaggio">Inserisci il tuo messaggio</label>
-								<textarea style="height: 80%;" class="form-control" name="messaggio" id="messaggio" placeholder="messaggio"></textarea>
+								<textarea class="form-control" name="messaggio" id="messaggio" placeholder="messaggio" style="height: 80%;"></textarea>
 							</div>
 						</div>
 						<div class="mt-50px">

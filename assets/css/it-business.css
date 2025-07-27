@@ -520,5 +520,11 @@ footer ul li {
     width: calc(var(--button-width) * 0.75);
     height: calc(var(--button-height) * 0.75);
   }
+
+  input, textarea{
+    font-size: 16px !important;
+  }
+
 }
+
 

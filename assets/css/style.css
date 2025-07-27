@@ -5110,7 +5110,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   margin-top: 4% !important;
 }
 .mt-5 {
-  margin-top: 5% !important;
+  margin-top: 5%;
 }
 .mt-6 {
   margin-top: 6% !important;
