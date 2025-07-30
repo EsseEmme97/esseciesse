@@ -41,7 +41,7 @@ $heightseox = "115";
 
 	<? require_once("../inc/htmlcx/menu-ita.php") ?>
 	<section class="cover-background small-screen ipad-top-space-margin py-0 md-h-750px sm-h-650px"
-		style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?= $pathindex ?>assets/images/azienda/header/azienda-header.jpg');">
+		style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?= $pathindex ?>assets/images/lavorazioni/header/lavorazioni-header.jpg');">
 		<div class="container h-100 d-flex flex-column justify-content-center">
 			<span class="text-uppercase text-center text-white">lavorazioni alluminio e leghe</span>
 			<h1 class="text-center text-uppercase">Alluminio</h1>
@@ -60,7 +60,7 @@ $heightseox = "115";
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-					<h3 class="text-dark-gray fw-900 h2 ls-minus-2px">Cenni biografici</h3>
+					<span class="text-dark-gray fw-900 h2 ls-minus-2px">Cenni biografici</span>
 					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
 					<p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
 				</div>
@@ -82,7 +82,7 @@ $heightseox = "115";
 		<div class="container">
 			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
 				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
+				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $_SERVER['REQUEST_URI'] ?>#contact-section">Contattaci ora</a>
 			</div>
 		</div>
 	</section>
@@ -139,11 +139,11 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="position-relative bg-light-gray">
+	<section id="contact-section" class="position-relative bg-light-gray">
 		<div class="container">
 			<div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
 				<div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">
-					<h3 class="fw-900 h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
+					<span class="fw-900 h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</span>
 					<p class="w-85 xl-w-90 xs-w-100">Allega un file cad per ricevere un'offerta più rapidamente</p>
 					<div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-auto">
 						<div class="feature-box-icon me-15px d-flex align-items-center p-4 gap-4 bg-white rounded shadow">

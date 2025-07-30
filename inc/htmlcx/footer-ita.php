@@ -5,7 +5,7 @@
             <!-- start footer column -->
             <div class="col-12 col-lg-3 last-paragraph-no-margin text-lg-start text-center order-sm-1 lg-mb-50px sm-mb-30px">
                 <a href="<?= $pathindex ?>" class="footer-logo mb-15px d-inline-block">
-                    <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="assets\images\global\logo\SCS-logo.svg" alt="logo image">
+                    <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo image">
                 </a>
             </div>
             <!-- end footer column -->
@@ -38,8 +38,8 @@
             <!-- end divider -->
             <!-- start copyright -->
             <div class="col-lg-7 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
-                <p class="h5">&copy; <?= date("Y") ?> Esseciesse srl | <a href="#" target="_blank">Privacy Policy</a> | By <a href="https://carbonx.it/">Carbonx</a></p>
-                <p class="h5">C.F e P.IVA e Reg.Imp 04078920248 | Rea VI - 377141 | Capitale sociale € i.v. 150.000,00</p>
+                <p class="h5">&copy; <?= date("Y") ?> Esseciesse srl | C.F e P.IVA 04078920248</p>
+                <p class="h5"><a href="#" target="_blank">Privacy Policy</a> - <a href="#" target="_blank">Cookie Policy</a> - <a href="#" target="_blank">Cookie consent</a> - By <a href="https://carbonx.it/">Carbonx</a></p>
             </div>
             <!-- end copyright -->
             <!-- start footer menu -->
