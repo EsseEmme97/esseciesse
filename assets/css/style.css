@@ -208,7 +208,6 @@ video {
 /* Heading */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
-  letter-spacing: -0.5px;
   font-weight: inherit;
 }
 h1, .h1 {

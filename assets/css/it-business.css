@@ -108,8 +108,7 @@
   --black: #05060a;
   --medium-gray: #7d8087;
   --very-light-gray: #f0f2f8;
-  --primary-font: "Plus Jakarta Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
+  --primary-font: "Poppins", sans-serif;
 }
 /* reset */
 body {
@@ -222,12 +221,13 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   width: 165px;
   height: 50px;
   border-radius: 30px;
-  background: -webkit-linear-gradient(to right, #ef7d26, #d35229);
   background: linear-gradient(to right, #ef7d26, #d35229);
+  background-size: 150% auto; /* il gradiente è più largo del bottone */
+  background-position: left center;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s linear;
+  transition: background-position 0.5s ease; /* animiamo la posizione */
   text-transform: uppercase;
   color: white;
 }
@@ -241,9 +241,9 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   background-color: #fff;
 }
 
+
 .btn-esseciesse-primary:hover {
-  background: linear-gradient(to right, #d35229, #ef7d26);
-  color: white;
+  background-position: right center; /* shift del gradiente */
 }
 
 .btn-esseciesse-primary span {
@@ -256,6 +256,7 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   width: 165px;
   background-color: transparent;
   border: 1px solid white;
+  transition: background-color 0.3s linear;
   display: flex;
   border-radius: 30px;
   justify-content: center;
