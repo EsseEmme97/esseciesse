@@ -64,7 +64,7 @@ $heightseox = "115";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px" data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ $heightseox = "115";
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="text-dark-gray fw-700 h2 ls-minus-2px">Cosa facciamo</span>
+                    <span class="text-dark-gray fw-700 h2 ">Cosa facciamo</span>
                     <p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio.</p>
                     <p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
                     <div class="mt-40px">
@@ -173,7 +173,7 @@ $heightseox = "115";
         <div class="container">
             <div class="row align-items-center mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5 md-mb-30px">
-                    <h2 class="fw-700 ls-minus-2px mb-0">Sbircia qui i nostri lavori migliori</h2>
+                    <h2 class="fw-700  mb-0">Sbircia qui i nostri lavori migliori</h2>
                 </div>
                 <div class="col-lg-4 offset-xl-1 last-paragraph-no-margin md-mb-30px">
                     <p>Lavorazioni tradizionali con centri di lavoro CNC e pantografi CNC, per produzioni più precise.</p>

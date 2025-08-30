@@ -176,6 +176,15 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   border-color: transparent !important;
 }
 
+.px-15px{
+  padding-left:15px !important;
+  padding-right:15px !important;
+}
+
+.fs-14px{
+  font-size:14px;
+}
+
 
 /* accordion style 02 */
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
@@ -221,20 +230,20 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   width: 165px;
   height: 50px;
   border-radius: 30px;
-  background: linear-gradient(to right, #ef7d26, #d35229);
-  background-size: 150% auto; /* il gradiente è più largo del bottone */
+  background: linear-gradient(to right, #ef7d26 20%, #d35229 80%);
+  background-size: 250% auto;
   background-position: left center;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-position 0.5s ease; /* animiamo la posizione */
+  transition: background-position 0.8s ease;
   text-transform: uppercase;
   color: white;
 }
 
 .btn-outline-orange{
-  border-color: var(--orange900);
-  color: var(--orange900);
+  border-color: #EF7D26;
+  color: #EF7D26;
 }
 
 .btn-outline-orange:hover{
@@ -243,7 +252,7 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
 
 
 .btn-esseciesse-primary:hover {
-  background-position: right center; /* shift del gradiente */
+  background-position: right center;
 }
 
 .btn-esseciesse-primary span {

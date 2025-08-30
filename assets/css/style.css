@@ -630,7 +630,7 @@ b, strong {
   color: var(--majorelle-blue);
 }
 .text-orange {
-  color: var(--orange900)!important;
+  color: #EF7D26!important;
 }
 .text-crusoe-green {
   color: var(--crusoe-green);
@@ -6794,8 +6794,8 @@ header .navbar {
   left: 0;
   z-index: 99;
 }
-header .navbar [class*=col-] {
-  padding: 0 15px;
+header .navbar [class*=col-]{
+  padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
