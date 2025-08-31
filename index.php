@@ -40,15 +40,18 @@ $heightseox = "115";
     <!-- ==================== Start Navbar ==================== -->
 
     <? require_once("inc/htmlcx/menu-ita.php") ?>
-    <section class="cover-background full-screen ipad-top-space-margin py-0 md-h-750px sm-h-650px" style="background-image:url('<?= $pathindex ?>assets/images/home/header/home-header.jpg');">
+    <section class="cover-background full-screen ipad-topspace-margin py-0 md-h-750px sm-h-650px"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/images/home/header/home-header.jpg'); 
+                margin-top: inherit; 
+                height: 951px;">
         <div class="opacity-very-light bg-black"></div>
         <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <h1 class="mb-25px text-uppercase">Lavorazioni Alluminio e leghe</h1>
-                    <p class="text-white">Sperimentiamo e lavoriamo tramite macchinari ad alto taso innovativo e tecnologico</p>
+                    <p class="text-white">Sperimentiamo e lavoriamo tramite macchinari ad alto tasso innovativo e tecnologico</p>
                     <div class="d-flex gap-2">
-                        <a href="<?= $pathindex ?>" class="btn-esseciesse-primary">
+                        <a href="<?= $pathindex ?>azienda" class="btn-esseciesse-primary">
                             <span>su di noi</span>
                         </a>
                         <a href="<? $pathindex ?>contatti" class="btn-esseciesse-secondary">
@@ -60,7 +63,7 @@ $heightseox = "115";
         </div>
     </section>
     <!-- ==================== End navbar ==================== -->
-    <section class="big-section">
+    <section class="half-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -163,8 +166,8 @@ $heightseox = "115";
     <section class="p-0 bg-orange">
         <div class="container">
             <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-                <p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="">Contattaci ora</a>
+                <p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
             </div>
         </div>
     </section>

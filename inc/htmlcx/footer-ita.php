@@ -1,5 +1,5 @@
 <!-- start footer -->
-<footer class="p-0 footer-light position-relative bg-light-gray">
+<footer class="p-0 footer-light position-relative bg-light-gray fs-14px">
     <div class="container position-relative">
         <div class="row pt-5 sm-pt-40px justify-content-lg-between">
             <!-- start footer column -->
@@ -10,22 +10,27 @@
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-12 col-xl-1 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+            <div class="col-12 col-xl-1 col-lg-3 col-sm-4 xs-mb-15px order-sm-3 order-lg-2">
                 <a href="<?= $pathindex ?>" class="fw-600 d-block text-dark-gray mb-5px text-center text-lg-start">Home</a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-12 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3 text-center text-lg-start">
+            <div class="col-12 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-15px order-sm-4 order-lg-3 text-center text-lg-start">
                 <a href="<?= $pathindex ?>azienda" class="fw-600 d-block text-dark-gray mb-5px">Su di noi</a>
             </div>
             <!-- end footer column -->
+             <!-- start footer column -->
+            <div class="col-12 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-15px order-sm-4 order-lg-3 text-center text-lg-start">
+                <a href="<?= $pathindex ?>alluminio" class="fw-600 d-block text-dark-gray mb-5px">Alluminio</a>
+            </div>
+            <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-12 col-xl-1 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4 text-center text-lg-start">
+            <div class="col-12 col-xl-1 col-lg-3 col-md-3 col-sm-4 xs-mb-15px order-sm-5 order-lg-4 text-center text-lg-start">
                 <a href="<?= $pathindex ?>lavori" class="fw-600 d-block text-dark-gray mb-5px">Lavori</a>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
-            <div class="col-12 col-xl-1 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5 text-center text-lg-start">
+            <div class="col-12 col-xl-1 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-30px order-sm-2 order-lg-5 text-center text-lg-start">
                 <a href="<?= $pathindex ?>contatti" class="fw-600 d-block text-dark-gray mb-5px">Contatti</a>
             </div>
             <!-- end footer column -->
@@ -37,9 +42,9 @@
             </div>
             <!-- end divider -->
             <!-- start copyright -->
-            <div class="col-lg-7 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
-                <p class="h5">&copy; <?= date("Y") ?> Esseciesse srl | C.F e P.IVA 04078920248</p>
-                <p class="h5"><a href="#" target="_blank">Privacy Policy</a> - <a href="#" target="_blank">Cookie Policy</a> - <a href="#" target="_blank">Cookie consent</a> - By <a href="https://carbonx.it/">Carbonx</a></p>
+            <div class="col-lg-7 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14 mb-1">
+                <p class="fs-14px mb-0">&copy; <?= date("Y") ?> Esseciesse srl | C.F e P.IVA 04078920248</p>
+                <p class="fs-14px"><a href="#" target="_blank">Privacy Policy</a> - <a href="#" target="_blank">Cookie Policy</a> - <a href="#" target="_blank">Cookie consent</a> - By <a href="https://carbonx.it/">Carbonx</a></p>
             </div>
             <!-- end copyright -->
             <!-- start footer menu -->

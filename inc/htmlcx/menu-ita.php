@@ -28,9 +28,9 @@ function setActiveLink($pages)
         <div class="container-fluid">
             <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="<?= $pathindex ?>">
-                    <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" alt="logo" class="default-logo">
-                    <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" alt="logo" class="alt-logo">
-                    <img src="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" data-at2x="<?= $pathindex ?>assets/images/global/logo/SCS-logo-old.svg" alt="logo" class="mobile-logo">
+                    <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo" class="default-logo">
+                    <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo" class="alt-logo">
+                    <img src="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" data-at2x="<?= $pathindex ?>assets\images\global\logo\SCS-logo.svg" alt="logo" class="mobile-logo">
                 </a>
             </div>
             <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
