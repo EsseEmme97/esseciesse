@@ -316,12 +316,18 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   );
 }
 
+.no-hover:hover{
+  color:#fff!important;
+}
+
 .bg-orange{
     background-color: var(--orange900);
 }
 
 .bg-orange-gradient{
     background: linear-gradient(to right, #ef7d26, #d35229);
+    background-size: 250% auto;
+    background-position: -20px center;
 }
 
 .bg-gradient-very-light-gray-transparent {

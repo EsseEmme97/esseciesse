@@ -73,7 +73,7 @@ $heightseox = "115";
         </div>
     </section>
 
-    <section class="pt-3 sm-pt-50px">
+    <section class="pt-3 xs-mb-0 xs-pb-0">
         <div class="container">
             <div class="row mb-10 align-items-center">
                 <div class="col-lg-5 position-relative md-mb-20">
@@ -96,7 +96,7 @@ $heightseox = "115";
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-70px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center container mx-auto mt-70px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <!-- start features box item -->
             <div class="col icon-with-text-style-01 md-mb-30px">
                 <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
@@ -140,7 +140,7 @@ $heightseox = "115";
     </section>
     <!-- end section -->
 
-    <section class="bg-light-gray">
+    <section class="bg-light-gray pt-50px pb-50px">
         <div class="container">
             <h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
             <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
@@ -148,7 +148,7 @@ $heightseox = "115";
                 <? foreach ($data as $element): ?>
                     <!-- start features box item -->
                     <div class="col icon-with-text-style-04 transition-inner-all <?= $i == 0 ? "border-start" : "" ?> border-end border-dark-subtle">
-                        <div class="feature-box hover-box h-100 transition pt-25 pb-25 xs-p-12 last-paragraph-no-margin overflow-hidden">
+                        <div class="feature-box hover-box h-100 transition pt-10 pb-10 xs-p-12 last-paragraph-no-margin overflow-hidden">
                             <div class="feature-box-icon">
                                 <img src="<?= $pathindex . $element["image"] ?>" alt="icona settore">
                             </div>
@@ -174,9 +174,9 @@ $heightseox = "115";
 
     <section class="overflow-hidden position-relative">
         <div class="container">
-            <div class="row align-items-center mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <div class="row align-items-start mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5 md-mb-30px">
-                    <h2 class="fw-700  mb-0">Sbircia qui i nostri lavori migliori</h2>
+                    <h2 class="fw-700 lh-70 mb-0">Sbircia qui i nostri lavori migliori</h2>
                 </div>
                 <div class="col-lg-4 offset-xl-1 last-paragraph-no-margin md-mb-30px">
                     <p>Lavorazioni tradizionali con centri di lavoro CNC e pantografi CNC, per produzioni più precise.</p>
@@ -194,14 +194,15 @@ $heightseox = "115";
                             <div class="swiper-wrapper">
                                 <? $labels = ["automotive", "nautico", "packaging", "alimentare"] ?>
                                 <? for ($i = 0; $i < count($labels) * 2; $i++): ?>
+                                    <? $imgPath= $pathindex . "assets/images/home/prodotti/prodotti-0". ($i+1) . ".jpg" ?>
                                     <? $index = $i % count($labels) ?>
                                     <!-- start slider item -->
                                     <div class="swiper-slide">
                                         <!-- start services box style -->
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
-                                                <a href="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp"><img src="<?= $pathindex ?>assets/images/home/intro/home-intro_1.webp" alt="immagine-realizzazione"></a>
-                                                <span class="btn btn-very-small btn-rounded bg-orange-gradient text-white ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></span>
+                                                <img src="<?= $imgPath ?>" alt="immagine-realizzazione">
+                                                <a href="<? $pathindex ?>lavori" class="no-hover btn btn-very-small btn-rounded bg-orange-gradient text-white lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></a>
                                             </div>
                                         </div>
                                         <!-- end services box style -->

@@ -60,7 +60,7 @@ $heightseox = "115";
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-					<span class="text-dark-gray fw-900 h2 ls-minus-2px">Cenni biografici</span>
+					<h2 class="text-dark-gray fw-900">Cenni biografici</h2>
 					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
 					<p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
 				</div>
@@ -69,13 +69,13 @@ $heightseox = "115";
 	</section>
 
 	<section class="p-0 bg-orange">
-		<div class="container">
-			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
-			</div>
-		</div>
-	</section>
+        <div class="container">
+            <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
+                <p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
+            </div>
+        </div>
+    </section>
 
 	<section class="pb-0">
 		<div class="container">
@@ -125,7 +125,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="bg-light-gray">
+	<section class="bg-light-gray pt-50px pb-50px">
 		<div class="container">
 			<h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
 			<div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
@@ -133,7 +133,7 @@ $heightseox = "115";
 				<? foreach ($data as $element): ?>
 					<!-- start features box item -->
 					<div class="col icon-with-text-style-04 transition-inner-all <?= $i == 0 ? "border-start" : "" ?> border-end border-dark-subtle">
-						<div class="feature-box hover-box h-100 transition pt-25 pb-25 xs-p-12 last-paragraph-no-margin overflow-hidden">
+						<div class="feature-box hover-box h-100 transition pt-10 pb-10 xs-p-12 last-paragraph-no-margin overflow-hidden">
 							<div class="feature-box-icon">
 								<img src="<?= $pathindex . $element["image"] ?>" alt="icona settore">
 							</div>
