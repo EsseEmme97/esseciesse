@@ -260,6 +260,10 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
   font-weight: 500;
 }
 
+.cursor-normal {
+  cursor: default;
+}
+
 .btn-esseciesse-secondary {
   height: 50px;
   width: 165px;

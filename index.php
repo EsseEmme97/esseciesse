@@ -67,7 +67,7 @@ $heightseox = "115";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@ $heightseox = "115";
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="text-dark-gray fw-700 h2 ">Cosa facciamo</span>
+                    <span class="text-dark-gray fw-700 h2 d-block">Cosa facciamo</span>
                     <p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio.</p>
                     <p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
                     <div class="mt-40px">
@@ -190,7 +190,7 @@ $heightseox = "115";
             <div class="row align-items-center" data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-12">
                     <div class="outside-box-right-20 sm-outside-box-right-0">
-                        <div class="swiper magic-cursor slider-one-slide" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                        <div class="swiper slider-one-slide" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
                             <div class="swiper-wrapper">
                                 <? $labels = ["automotive", "nautico", "packaging", "alimentare"] ?>
                                 <? for ($i = 0; $i < count($labels) * 2; $i++): ?>
@@ -202,7 +202,7 @@ $heightseox = "115";
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
                                                 <img src="<?= $imgPath ?>" alt="immagine-realizzazione">
-                                                <a href="<? $pathindex ?>lavori" class="no-hover btn btn-very-small btn-rounded bg-orange-gradient text-white lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></a>
+                                                <span class="cursor-normal no-hover btn btn-very-small btn-rounded bg-orange-gradient text-white lh-16 position-absolute right-30px top-30px text-uppercase"><?= $labels[$index] ?></span>
                                             </div>
                                         </div>
                                         <!-- end services box style -->

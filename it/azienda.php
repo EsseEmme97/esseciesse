@@ -69,18 +69,18 @@ $heightseox = "115";
 	</section>
 
 	<section class="p-0 bg-orange">
-        <div class="container">
-            <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-                <p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
-            </div>
-        </div>
-    </section>
+		<div class="container">
+			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
+				<p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+				<a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
+			</div>
+		</div>
+	</section>
 
 	<section class="pb-0">
 		<div class="container">
 			<h2 class="fw-900">Lorem Ipsum</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
+			<p class="mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
 		</div>
 		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 			<!-- start features box item -->
@@ -153,14 +153,13 @@ $heightseox = "115";
 			<div class="row overflow-hidden">
 				<div class="col-12 col-md-12">
 					<div class="outside-box-right-15 outside-box-left-15 sm-outside-box-left-40 sm-outside-box-right-40">
-						<div class="swiper view-cursor magic-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 2000, "disableOnInteraction": false },  "pagination": { "el": ".swiper-line-pagination", "clickable": true }, "navigation": { "nextEl": ".slider-three-slide-next", "prevEl": ".slider-three-slide-prev" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 6 }, "768": { "slidesPerView": 3 }, "320": { "slidesPerView": 3 } }, "effect": "slide" }'>
+						<div class="swiper view-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 2000, "disableOnInteraction": false },  "pagination": { "el": ".swiper-line-pagination", "clickable": true }, "navigation": { "nextEl": ".slider-three-slide-next", "prevEl": ".slider-three-slide-prev" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 5 }, "768": { "slidesPerView": 3 }, "320": { "slidesPerView": 3 } }, "effect": "slide" }'>
 							<div class="swiper-wrapper align-items-center">
 								<!-- start slider item -->
-								<? for ($i = 1; $i < 15; $i++) : ?>
+								<? for ($i = 1; $i < 7; $i++) : ?>
 									<?
-									$index= $i % 7 == 0 ? 2 : $i %7;
-									$imagePath = $pathindex . "assets/images/azienda/gallery/azienda-gallery_" . $index . ".jpg";
-								?>
+									$imagePath = $pathindex . "assets/images/azienda/gallery/azienda-gallery_" . $i . ".jpg";
+									?>
 									<div class="swiper-slide">
 										<img src="<?= $imagePath ?>" class="border-radius-6px" alt="immagine azienda">
 									</div>

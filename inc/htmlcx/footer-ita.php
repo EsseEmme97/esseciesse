@@ -1,7 +1,20 @@
+<? 
+    $is_contact_form= $_pagina_corrente == "singolo-prodotto.php";
+    
+?>
+
+
 <!-- start footer -->
 <footer class="p-0 footer-light position-relative bg-light-gray fs-14px">
+    <? if($is_contact_form): ?>
+    <!-- start divider -->
+    <div class="container">
+        <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"></div>
+    </div>
+    <!-- end divider -->
+     <? endif; ?>
     <div class="container position-relative">
-        <div class="row pt-5 sm-pt-40px justify-content-lg-between">
+        <div class="row <?= $is_contact_form ? "py-5" : "pt-5" ?> sm-pt-40px justify-content-lg-between">
             <!-- start footer column -->
             <div class="col-12 col-lg-3 last-paragraph-no-margin text-lg-start text-center order-sm-1 lg-mb-50px sm-mb-30px">
                 <a href="<?= $pathindex ?>" class="footer-logo mb-15px d-inline-block">
@@ -19,7 +32,7 @@
                 <a href="<?= $pathindex ?>azienda" class="fw-600 d-block text-dark-gray mb-5px">Su di noi</a>
             </div>
             <!-- end footer column -->
-             <!-- start footer column -->
+            <!-- start footer column -->
             <div class="col-12 col-xl-1 col-lg-3 col-md-5 col-sm-4 xs-mb-15px order-sm-4 order-lg-3 text-center text-lg-start">
                 <a href="<?= $pathindex ?>alluminio" class="fw-600 d-block text-dark-gray mb-5px">Alluminio</a>
             </div>
@@ -43,8 +56,8 @@
             <!-- end divider -->
             <!-- start copyright -->
             <div class="col-lg-7 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14 mb-1">
-                <p class="fs-14px mb-0">&copy; <?= date("Y") ?> Esseciesse srl | C.F e P.IVA 04078920248</p>
-                <p class="fs-14px"><a href="#" target="_blank">Privacy Policy</a> - <a href="#" target="_blank">Cookie Policy</a> - <a href="#" target="_blank">Cookie consent</a> - By <a href="https://carbonx.it/">Carbonx</a></p>
+                <p class="fs-14px mb-0">&copy; <?= date("Y") ?> Esseciesse srl | <a href="#" target="_blank">Privacy Policy</a> | By <a class="text-orange" href="https://carbonx.it/">Carbonx</a> </p>
+                <p class="fs-14px">C.F. e P.IVA e Reg. Imp. 04078920248 | Rea VI-377141 | Capitale sociale € i.v. 150.000,00</p>
             </div>
             <!-- end copyright -->
             <!-- start footer menu -->

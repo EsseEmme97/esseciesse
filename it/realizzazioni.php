@@ -49,12 +49,12 @@ $heightseox = "115";
 	</section>
 	<!-- ==================== End navbar ==================== -->
 
-	<section class="sm-pt-50px">
+	<section class="sm-pt-50px pb-lg-0">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px" data-shadow-animation="true" data-animation-delay="500">
-						Grazie ad , <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+						Grazie ad , <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
 				</div>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="position-relative pt-0 bg-gradient-top-very-light-gray sm-pt-50px" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+	<section class="position-relative pb-lg-0 pt-0 bg-gradient-top-very-light-gray sm-pt-50px" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 		<div class="container">
 			<div class="row mb-8 sm-mb-0">
 				<div class="col-12 filter-content p-md-0">
