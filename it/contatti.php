@@ -48,7 +48,7 @@ $heightseox = "115";
         </div>
     </section>
     <!-- ==================== End navbar ==================== -->
-    <section class="position-relative bg-light-gray">
+    <section class="position-relative bg-light-gray half-section">
         <div class="container">
             <div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                 <div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">

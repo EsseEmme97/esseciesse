@@ -251,6 +251,15 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
 }
 
 
+.topbar{
+  position:absolute;
+  width: 100%;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  z-index: 100;
+}
+
+
 .btn-esseciesse-primary:hover {
   background-position: right center;
 }
@@ -496,6 +505,11 @@ footer ul li {
     margin-bottom: 0;
     margin-right: -15px;
   }
+
+  .topbar{
+    display: none;
+  }
+  
   .navbar
     .navbar-nav
     .dropdown.dropdown-with-icon-style02

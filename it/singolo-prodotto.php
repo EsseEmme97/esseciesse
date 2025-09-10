@@ -48,7 +48,7 @@ $heightseox = "115";
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
-	<section class="pt-3 sm-pt-50px pb-0">
+	<section class="half-section pb-0">
 		<div class="container">
 			<div class="row mb-10 align-items-center">
 				<div class="col-lg-5 position-relative md-mb-20">
@@ -68,7 +68,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="pt-0">
+	<section class="half-section pt-0">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -87,7 +87,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section>
+	<section class="half-section">
 		<div class="container">
 			<h2 class="fw-900">La nostra gamma di alluminio e leghe</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

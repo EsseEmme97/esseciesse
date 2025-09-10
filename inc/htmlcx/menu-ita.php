@@ -12,9 +12,8 @@ function setActiveLink($pages)
 
 <!-- start header -->
 <header>
-
     <!-- start topbar -->
-    <div class="bg-white">
+    <div class="topbar">
         <div class="container-fluid">
             <div class="col-auto d-flex justify-content-between px-15px fs-14px">
                 <span>Via dell'artigianato 75 - Torrebelvicino</span>

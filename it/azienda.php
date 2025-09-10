@@ -48,7 +48,7 @@ $heightseox = "115";
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
-	<section class="pt-3 sm-pt-50px pb-0">
+	<section class="half-section pb-0">
 		<div class="container">
 			<div class="row mb-10 align-items-center">
 				<div class="col-lg-5 position-relative md-mb-20">
@@ -77,7 +77,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="pb-0">
+	<section class="pb-0 half-section">
 		<div class="container">
 			<h2 class="fw-900">Lorem Ipsum</h2>
 			<p class="mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>

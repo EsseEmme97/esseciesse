@@ -67,13 +67,13 @@ $heightseox = "115";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+                    <span class="text-dark-gray h2 lg-fs-40 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="pt-3 xs-mb-0 xs-pb-0">
+    <section class="half-section pt-0 xs-mb-0 xs-pb-0">
         <div class="container">
             <div class="row mb-10 align-items-center">
                 <div class="col-lg-5 position-relative md-mb-20">
@@ -140,7 +140,7 @@ $heightseox = "115";
     </section>
     <!-- end section -->
 
-    <section class="bg-light-gray pt-50px pb-50px">
+    <section class="bg-light-gray half-section">
         <div class="container">
             <h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
             <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
@@ -172,7 +172,7 @@ $heightseox = "115";
         </div>
     </section>
 
-    <section class="overflow-hidden position-relative">
+    <section class="overflow-hidden position-relative half-section">
         <div class="container">
             <div class="row align-items-start mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5 md-mb-30px">
