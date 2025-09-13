@@ -56,7 +56,7 @@
             <!-- end divider -->
             <!-- start copyright -->
             <div class="col-lg-7 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
-                <p class="fs-14px mb-0">&copy; <?= date("Y") ?> Esseciesse srl | <a href="#" target="_blank">Privacy Policy</a> | By <a class="text-orange" href="https://carbonx.it/">Carbonx</a> </p>
+                <p class="fs-14px mb-0">&copy; <?= date("Y") ?> Esseciesse srl | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Cookie policy</a> | <a href="#" target="_blank">Preferenze Cookies</a> By <a class="text-orange" href="https://carbonx.it/">Carbonx</a> </p>
                 <p class="fs-14px">C.F. e P.IVA e Reg. Imp. 04078920248 | Rea VI-377141 | Capitale sociale € i.v. 150.000,00</p>
             </div>
             <!-- end copyright -->

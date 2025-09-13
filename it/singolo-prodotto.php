@@ -72,7 +72,7 @@ $heightseox = "115";
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px " data-shadow-animation="true" data-animation-delay="500"><span class="text-highlight">Dinamicità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, <span class="text-highlight">flessibilità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> e <span class="text-highlight">puntualità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> sono le basi su cui si fonda la nostra <span class="text-highlight">giovane impresa<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, in continua espansione e che guarda verso il progresso.</span>
+					<span class="text-dark-gray h2 lg-fs-40 shadow-none ls-minus-2px " data-shadow-animation="true" data-animation-delay="500"><span class="text-highlight">Dinamicità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, <span class="text-highlight">flessibilità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> e <span class="text-highlight">puntualità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> sono le basi su cui si fonda la nostra <span class="text-highlight">giovane impresa<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, in continua espansione e che guarda verso il progresso.</span>
 				</div>
 			</div>
 		</div>

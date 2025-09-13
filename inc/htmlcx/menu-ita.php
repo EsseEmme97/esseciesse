@@ -17,7 +17,11 @@ function setActiveLink($pages)
         <div class="container-fluid">
             <div class="col-auto d-flex justify-content-between px-15px fs-14px">
                 <span>Via dell'artigianato 75 - Torrebelvicino</span>
-                <span>+39 0445 827253 - M. info@esseciesseitalia.it</span>
+                <div>
+                    <a href="tel:+390445827253">+39 0445 827253 </a>
+                    <span>-</span>
+                    <a href="mailto:info@esseciesseitalia.it"> M. info@esseciesseitalia.it</a>
+                </div>
             </div>
         </div>
     </div>
