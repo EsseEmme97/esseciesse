@@ -77,12 +77,12 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="pb-0 half-section">
+	<section class="pb-0 half-section" style="background-image: url(<?= $pathindex ?>assets/images/azienda/intro/demo-it-business-testimonial-bg.png); background-position:center; background-repeat: no-repeat; background-size:cover">
 		<div class="container">
 			<h2 class="fw-900">Lorem Ipsum</h2>
 			<p class="mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
 		</div>
-		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center pb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 			<!-- start features box item -->
 			<div class="col icon-with-text-style-01 md-mb-30px">
 				<div class="feature-box feature-box-left-icon last-paragraph-no-margin">
