@@ -52,17 +52,16 @@ $heightseox = "115";
         <div class="container">
             <div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                 <div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">
-                    <h3 class="fw-900 h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
+                    <h3 class="h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
                     <p class="w-85 xl-w-90 xs-w-100 mb-4">Esseciesse srl</p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-4">Via dell'artigianato 75, 36036, Torrebelvicino (VI)</p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-4">Lunedì - Venerdì dalle 7.30 alle 17.30</p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-4"><a href="mailto:info@esseciesseitalia.it">info@esseciesseitalia.it</a></p>
+					<p class="w-85 xl-w-90 xs-w-100 mb-4">Via dell'artigianato 75</p>
+					<p class="w-85 xl-w-90 xs-w-100 mb-4">36030 - Torrebelvicino</p>
                     <div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-auto">
                         <div class="feature-box-icon me-15px d-flex align-items-center p-4 gap-4 bg-white rounded shadow">
                             <img src="<?= $pathindex ?>assets/images/global/recapiti/telefono.svg" alt="icona telefono">
                             <div>
                                 <span class="d-block text-18 color-dark-gray">Oppure chiama</span>
-                                <a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-900">0445 827253</a>
+                                <a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-700">0445 827253</a>
                             </div>
                         </div>
                     </div>

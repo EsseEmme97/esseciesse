@@ -60,7 +60,7 @@ $heightseox = "115";
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-					<span class="text-dark-gray fw-900 h2 d-block">Cenni biografici</span>
+					<span class="text-dark-gray h2 d-block">Cenni biografici</span>
 					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
 					<p class="mb-0">Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
 				</div>
@@ -72,7 +72,7 @@ $heightseox = "115";
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<span class="text-dark-gray h2 lg-fs-40 shadow-none ls-minus-2px " data-shadow-animation="true" data-animation-delay="500"><span class="text-highlight">Dinamicità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, <span class="text-highlight">flessibilità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> e <span class="text-highlight">puntualità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> sono le basi su cui si fonda la nostra <span class="text-highlight">giovane impresa<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, in continua espansione e che guarda verso il progresso.</span>
+					<span class="text-dark-gray h2 fw-400 lg-fs-40 shadow-none ls-minus-2px " data-shadow-animation="true" data-animation-delay="500"><span class="text-highlight">Dinamicità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, <span class="text-highlight">flessibilità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> e <span class="text-highlight">puntualità<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> sono le basi su cui si fonda la nostra <span class="text-highlight">giovane impresa<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span>, in continua espansione e che guarda verso il progresso.</span>
 				</div>
 			</div>
 		</div>
@@ -81,15 +81,15 @@ $heightseox = "115";
 	<section class="p-0 bg-orange">
 		<div class="container">
 			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $_SERVER['REQUEST_URI'] ?>#contact-section">Contattaci ora</a>
+				<p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+				<a class="text-decoration-line-bottom d-block d-md-inline h3 fw-600 text-white mt-25px mb-25px" href="<?= $_SERVER['REQUEST_URI'] ?>#contact-section">Contattaci ora</a>
 			</div>
 		</div>
 	</section>
 
 	<section class="half-section">
 		<div class="container">
-			<h2 class="fw-900">La nostra gamma di alluminio e leghe</h2>
+			<h2>La nostra gamma di alluminio e leghe</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			<div class="container">
 				<div class="row mt-5">
@@ -143,14 +143,14 @@ $heightseox = "115";
 		<div class="container">
 			<div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
 				<div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">
-					<span class="fw-900 h2 text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</span>
+					<span class="h2 text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</span>
 					<p class="w-85 xl-w-90 xs-w-100">Allega un file CAD per ricevere un'offerta più rapidamente</p>
 					<div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-5">
 						<div class="feature-box-icon me-15px d-flex align-items-center p-4 gap-4 bg-white rounded shadow">
 							<img src="<?= $pathindex ?>assets/images/global/recapiti/telefono.svg" alt="icona telefono">
 							<div>
 								<span class="d-block text-18 color-dark-gray">Oppure chiama</span>
-								<a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-900">0445 827253</a>
+								<a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-700">0445 827253</a>
 							</div>
 						</div>
 					</div>

@@ -67,7 +67,7 @@ $heightseox = "115";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-dark-gray h2 lg-fs-40 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+                    <span class="text-dark-gray h2 fw-400 lg-fs-40 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@ $heightseox = "115";
 
     <section class="bg-light-gray half-section">
         <div class="container">
-            <h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
+            <h2 class="text-center mb-70px">In questi settori, siamo specializzati</h2>
             <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                 <? $data = [["title" => "Packaging", "image" => "assets/images/icon set/settori/packaging.svg"], ["title" => "Alimentare", "image" => "assets/images/icon set/settori/alimentare.svg"], ["title" => "Nautico", "image" => "assets/images/icon set/settori/nautico.svg"], ["title" => "Automotive", "image" => "assets/images/icon set/settori/automotive.svg"]] ?>
                 <? foreach ($data as $element): ?>
