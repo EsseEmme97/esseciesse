@@ -322,6 +322,8 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
 
 .bg-orange-gradient{
     background: linear-gradient(to right, #ef7d26, #d35229);
+    background-size: 200% auto;
+    background-position: -20px center;
 }
 
 .bg-gradient-very-light-gray-transparent {
