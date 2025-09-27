@@ -703,6 +703,10 @@ b, strong {
   position:relative;
 }
 
+a.text-decoration-line-bottom:hover{
+  color:var(--white)!important;
+}
+
 .text-decoration-line-bottom::before{
   content:"";
   position:absolute;
@@ -710,7 +714,7 @@ b, strong {
   bottom:7px;
   width: 0;
   height: 2px;
-  background-color: var(--orange600);
+  background-color: var(--white);
   transition: width 0.3s ease;
 }
 

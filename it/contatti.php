@@ -48,22 +48,20 @@ $heightseox = "115";
         </div>
     </section>
     <!-- ==================== End navbar ==================== -->
-    <section class="position-relative bg-light-gray">
+    <section class="position-relative bg-light-gray half-section">
         <div class="container">
             <div class="row row-cols-md-1 justify-content-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                 <div class="col-xxl-4 col-xl-5 col-lg-5 md-mb-30px d-flex flex-column">
-                    <h3 class="fw-900 h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
-                    <p class="w-85 xl-w-90 xs-w-100 mb-1 fs-14">Esseciesse srl</p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-1 fs-14">Via dell'artigianato 75, 36036, Torrebelvicino (VI)</p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-1 fs-14"><a href="tel:+390445 827253">0445 827253</a></p>
-					<p class="w-85 xl-w-90 xs-w-100 mb-1 fs-14"><a href="mailto:info@esseciesseitalia.it">info@esseciesseitalia.it</a></p>
-					<p class="w-85 xl-w-90 xs-w-100 fs-14">C.F e P.IVA e Reg.Imp 04078920248 | Rea VI - 377141 | Capitale sociale € i.v. 150.000,00</p>
+                    <h3 class="h2 ls-minus-1px text-dark-gray w-85 xl-w-90 md-w-100 mb-15px">Richiedi ora un preventivo</h3>
+                    <p class="w-85 xl-w-90 xs-w-100 mb-4">Esseciesse srl</p>
+					<p class="w-85 xl-w-90 xs-w-100 mb-4">Via dell'artigianato 75</p>
+					<p class="w-85 xl-w-90 xs-w-100 mb-4">36030 - Torrebelvicino</p>
                     <div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle last-paragraph-no-margin mt-auto">
                         <div class="feature-box-icon me-15px d-flex align-items-center p-4 gap-4 bg-white rounded shadow">
                             <img src="<?= $pathindex ?>assets/images/global/recapiti/telefono.svg" alt="icona telefono">
                             <div>
                                 <span class="d-block text-18 color-dark-gray">Oppure chiama</span>
-                                <a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-900">0445 827253</a>
+                                <a href="tel:+390445827253" class="d-block text-18 color-dark-gray fw-700">0445 827253</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +72,7 @@ $heightseox = "115";
 						<div class="row">
 							<div class="form-group col-lg-6 mt-5">
 								<label for="nome">Nome</label>
-								<input type="text" name="nome" class="form-control p-3" id="nome" aria-describedby="nome" placeholder="nome">
+								<input type="text" name="nome" class="form-control p-3" id="nome" aria-describedby="nome" placeholder="Nome">
 							</div>
 							<div class="form-group col-lg-6 mt-5">
 								<label for="cognome">Cognome</label>
@@ -85,12 +83,12 @@ $heightseox = "115";
 							<div class="col-lg-6 h-100">
 								<div class="form-group">
 									<label for="email">Email</label>
-									<input type="email" class="form-control p-3" id="email" name="email" aria-describedby="email" placeholder="email">
+									<input type="email" class="form-control p-3" id="email" name="email" aria-describedby="email" placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group col-12 col-lg-6 mt-5 mt-lg-0">
 								<label for="messaggio">Inserisci il tuo messaggio</label>
-								<textarea class="form-control" name="messaggio" id="messaggio" placeholder="messaggio" style="height: 100%;"></textarea>
+								<textarea class="form-control" name="messaggio" id="messaggio" placeholder="Messaggio" style="height: 100%;"></textarea>
 							</div>
 						</div>
 						<div class="mt-50px">

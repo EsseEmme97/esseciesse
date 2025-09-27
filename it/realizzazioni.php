@@ -49,12 +49,12 @@ $heightseox = "115";
 	</section>
 	<!-- ==================== End navbar ==================== -->
 
-	<section class="sm-pt-50px">
+	<section class="half-section pb-lg-0">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<span class="text-dark-gray h2 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px" data-shadow-animation="true" data-animation-delay="500">
-						Grazie ad , <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+					<span class="text-dark-gray h2 fw-400 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px" data-shadow-animation="true" data-animation-delay="500">
+						Grazie ad , <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
 				</div>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="position-relative pt-0 bg-gradient-top-very-light-gray sm-pt-50px" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+	<section class="position-relative pb-lg-0 pt-0 bg-gradient-top-very-light-gray sm-pt-50px" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 		<div class="container">
 			<div class="row mb-8 sm-mb-0">
 				<div class="col-12 filter-content p-md-0">
@@ -139,13 +139,13 @@ $heightseox = "115";
 	</section>
 
 	<section class="p-0 bg-orange">
-		<div class="container">
-			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
-			</div>
-		</div>
-	</section>
+        <div class="container">
+            <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
+                <p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
+            </div>
+        </div>
+    </section>
 
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once("../inc/htmlcx/footer-ita.php") ?>

@@ -48,7 +48,7 @@ $heightseox = "115";
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
-	<section class="pt-3 sm-pt-50px pb-0">
+	<section class="half-section pb-0">
 		<div class="container">
 			<div class="row mb-10 align-items-center">
 				<div class="col-lg-5 position-relative md-mb-20">
@@ -60,7 +60,7 @@ $heightseox = "115";
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-					<span class="text-dark-gray fw-900 h2 ls-minus-2px">Cenni biografici</span>
+					<h2 class="text-dark-gray">Cenni biografici</h2>
 					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
 					<p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
 				</div>
@@ -71,18 +71,18 @@ $heightseox = "115";
 	<section class="p-0 bg-orange">
 		<div class="container">
 			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-				<p class="h3 text-white fw-900 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-				<a class="text-decoration-line-bottom h3 text-white fw-900 mt-25px" href="<?= $pathindex ?>contatti">Contattaci ora</a>
+				<p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+				<a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="pb-0">
+	<section class="pb-0 half-section container" style="background-image: url(<?= $pathindex ?>assets/images/azienda/intro/demo-it-business-testimonial-bg.png); background-position:center; background-repeat: no-repeat; background-size:cover">
 		<div class="container">
-			<h2 class="fw-900">Lorem Ipsum</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
+			<h2 class="">Lorem Ipsum</h2>
+			<p class="mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
 		</div>
-		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center pb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 			<!-- start features box item -->
 			<div class="col icon-with-text-style-01 md-mb-30px">
 				<div class="feature-box feature-box-left-icon last-paragraph-no-margin">
@@ -125,15 +125,15 @@ $heightseox = "115";
 		</div>
 	</section>
 
-	<section class="bg-light-gray">
+	<section class="bg-light-gray pt-50px pb-50px">
 		<div class="container">
-			<h2 class="text-center fw-900 mb-70px">In questi settori, siamo specializzati</h2>
+			<h2 class="text-center mb-70px">In questi settori, siamo specializzati</h2>
 			<div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-0 justify-content-between" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
 				<? $data = [["title" => "Packaging", "image" => "assets/images/icon set/settori/packaging.svg"], ["title" => "Alimentare", "image" => "assets/images/icon set/settori/alimentare.svg"], ["title" => "Nautico", "image" => "assets/images/icon set/settori/nautico.svg"], ["title" => "Automotive", "image" => "assets/images/icon set/settori/automotive.svg"]] ?>
 				<? foreach ($data as $element): ?>
 					<!-- start features box item -->
 					<div class="col icon-with-text-style-04 transition-inner-all <?= $i == 0 ? "border-start" : "" ?> border-end border-dark-subtle">
-						<div class="feature-box hover-box h-100 transition pt-25 pb-25 xs-p-12 last-paragraph-no-margin overflow-hidden">
+						<div class="feature-box hover-box h-100 transition pt-10 pb-10 xs-p-12 last-paragraph-no-margin overflow-hidden">
 							<div class="feature-box-icon">
 								<img src="<?= $pathindex . $element["image"] ?>" alt="icona settore">
 							</div>
@@ -153,14 +153,13 @@ $heightseox = "115";
 			<div class="row overflow-hidden">
 				<div class="col-12 col-md-12">
 					<div class="outside-box-right-15 outside-box-left-15 sm-outside-box-left-40 sm-outside-box-right-40">
-						<div class="swiper view-cursor magic-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 2000, "disableOnInteraction": false },  "pagination": { "el": ".swiper-line-pagination", "clickable": true }, "navigation": { "nextEl": ".slider-three-slide-next", "prevEl": ".slider-three-slide-prev" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 6 }, "768": { "slidesPerView": 3 }, "320": { "slidesPerView": 3 } }, "effect": "slide" }'>
+						<div class="swiper view-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "autoplay": { "delay": 2000, "disableOnInteraction": false },  "pagination": { "el": ".swiper-line-pagination", "clickable": true }, "navigation": { "nextEl": ".slider-three-slide-next", "prevEl": ".slider-three-slide-prev" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 5 }, "768": { "slidesPerView": 3 }, "320": { "slidesPerView": 3 } }, "effect": "slide" }'>
 							<div class="swiper-wrapper align-items-center">
 								<!-- start slider item -->
-								<? for ($i = 1; $i < 15; $i++) : ?>
+								<? for ($i = 1; $i < 7; $i++) : ?>
 									<?
-									$index= $i % 7 == 0 ? 2 : $i %7;
-									$imagePath = $pathindex . "assets/images/azienda/gallery/azienda-gallery_" . $index . ".jpg";
-								?>
+									$imagePath = $pathindex . "assets/images/azienda/gallery/azienda-gallery_" . $i . ".jpg";
+									?>
 									<div class="swiper-slide">
 										<img src="<?= $imagePath ?>" class="border-radius-6px" alt="immagine azienda">
 									</div>
