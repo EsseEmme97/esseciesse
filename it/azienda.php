@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "titolo";
-$descriptionseo = "descrizione";
+$titleseo = "Lavorazioni CNC su alluminio| Esseciesse Italia";
+$descriptionseo = "Eccellenza in CNC per alluminio, produciamo componenti
+di precisione su disegno. Soluzioni personalizzate per la lavorazione
+industriale dell’alluminio.";
 $image = "/assets/img/global/logo.jpg";
 $widthseo = "400";
 $heightseox = "115";
@@ -43,7 +45,7 @@ $heightseox = "115";
 	<section class="cover-background small-screen ipad-top-space-margin py-0 md-h-750px sm-h-650px"
 		style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?= $pathindex ?>assets/images/azienda/header/azienda-header.jpg');">
 		<div class="container h-100 d-flex flex-column justify-content-center">
-			<span class="text-uppercase text-center text-white">lavorazioni alluminio e leghe</span>
+			<span class="text-uppercase text-center text-white">LAVORAZIONI CNC ALLUMINIO</span>
 			<h1 class="text-center text-uppercase">su di noi</h1>
 		</div>
 	</section>
@@ -60,9 +62,20 @@ $heightseox = "115";
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-					<h2 class="text-dark-gray">Cenni biografici</h2>
-					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
-					<p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
+					<h2 class="text-dark-gray">Specialisti nella lavorazione dell’alluminio</h2>
+					<p class="mb-40px sm-mb-25px"><a href="<?= $pathindex ?>" class="text-link">Esseciesse Italia</a> realizza particolari su misura attraverso lavorazioni CNC di
+						<a href="<?= $pathindex ?>alluminio" class="text-link">alluminio e sue leghe</a>. Caratteristica distintiva dell’azienda è la capacità di
+						produrre <strong>componenti di precisione su disegno del cliente</strong>, in qualsiasi
+						dimensione e anche in tirature limitate. Grazie a <strong>pantografi e centri di
+							lavoro CNC</strong> all’avanguardia, oltre a software di progettazione CAD CAM,
+						realizziamo particolari in alluminio per diversi settori industriali, garantendo
+						elevata qualità e consegne sempre puntuali. Siamo molto attenti alle
+						esigenze del cliente: i nostri macchinari ad alto tasso tecnologico, uniti alla
+						collaborazione con altre aziende del territorio, ci consentono di fornire
+						prodotti su misura precisi e finiti, già pronti al montaggio.
+					</p>
+					<p>Gestiamo i <strong>preventivi in giornata</strong> e le commesse più urgenti, offrendo rapida
+						consegna in tutta Italia.</p>
 				</div>
 			</div>
 		</div>
@@ -79,8 +92,10 @@ $heightseox = "115";
 
 	<section class="pb-0 half-section container" style="background-image: url(<?= $pathindex ?>assets/images/azienda/intro/demo-it-business-testimonial-bg.png); background-position:center; background-repeat: no-repeat; background-size:cover">
 		<div class="container">
-			<h2 class="">Lorem Ipsum</h2>
-			<p class="mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, enim, culpa corrupti quod laborum saepe soluta rerum reprehenderit, commodi sed quo beatae aliquam exercitationem natus. Alias, facere? Eos, mollitia placeat?</p>
+			<h2>Tecnologia al tuo servizio</h2>
+			<p class="mb-7">La nostra azienda unisce know-how tecnico, innovazione e flessibilità,
+				offrendo <strong>lavorazioni CNC per alluminio</strong> ad uso industriale di alta qualità,
+				pronte al montaggio.</p>
 		</div>
 		<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center pb-7 container mx-auto mt-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 			<!-- start features box item -->
@@ -91,7 +106,7 @@ $heightseox = "115";
 					</div>
 					<div class="feature-box-content">
 						<span class="d-inline-block h4 fw-700 mb-5px">Puntualità</span>
-						<p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+						<p class="w-80 xl-w-90 lg-w-100">Consegne rapide, rispettando sempre tempi e scadenze</p>
 					</div>
 				</div>
 			</div>
@@ -104,7 +119,7 @@ $heightseox = "115";
 					</div>
 					<div class="feature-box-content">
 						<span class="d-inline-block h4 fw-700 mb-5px">Flessibilità</span>
-						<p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+						<p class="w-80 xl-w-90 lg-w-100">Soluzioni personalizzate su ogni lavorazione dell’alluminio</p>
 					</div>
 				</div>
 			</div>
@@ -117,7 +132,8 @@ $heightseox = "115";
 					</div>
 					<div class="feature-box-content">
 						<span class="d-inline-block h4 fw-700 mb-5px">Lavori su misura</span>
-						<p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+						<p class="w-80 xl-w-90 lg-w-100">Componenti CNC in alluminio realizzati a disegno del
+							cliente</p>
 					</div>
 				</div>
 			</div>

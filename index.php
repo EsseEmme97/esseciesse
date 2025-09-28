@@ -4,8 +4,10 @@ require_once("./inc/global.php");
 require_once("./inc/header.php");
 require_once("./inc/mysqli.php");
 // $database = new DB();
-$titleseo = "titolo";
-$descriptionseo = "descrizione";
+$titleseo = "Lavorazioni alluminio su disegno | Esseciesse Italia";
+$descriptionseo = "Specialisti in lavorazioni dell’alluminio di precisione.
+Esseciesse Italia realizza soluzioni a disegno su misura, componenti in
+alluminio industriale su vari settori.";
 $image = "/assets/img/global/logo.jpg";
 $widthseo = "400";
 $heightseox = "115";
@@ -49,7 +51,8 @@ $heightseox = "115";
             <div class="row align-items-center h-100">
                 <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <h1 class="mb-25px text-uppercase">Lavorazioni Alluminio e leghe</h1>
-                    <p class="text-white">Sperimentiamo e lavoriamo tramite macchinari ad alto tasso innovativo e tecnologico</p>
+                    <p class="text-white">Realizziamo componenti di precisione in alluminio su disegno, con
+                        macchinari altamente innovativi</p>
                     <div class="d-flex gap-2">
                         <a href="<?= $pathindex ?>azienda" class="btn-esseciesse-primary">
                             <span>su di noi</span>
@@ -67,7 +70,8 @@ $heightseox = "115";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <span class="text-dark-gray h2 fw-400 lg-fs-40 shadow-none " data-shadow-animation="true" data-animation-delay="500">Grazie ad <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+                    <span class="text-dark-gray h2 fw-400 lg-fs-40 shadow-none " data-shadow-animation="true" data-animation-delay="500">Con tecnologia CNC avanzata <span class="text-highlight">lavoriamo l’alluminio<span class="bg-dark-gray d-none d-lg-block h-3px bottom-0px separator-animation"></span></span> per produrre particolari
+                        su disegno, dalle piccole serie alle piastre fino a 4000x2000 mm.</span>
                 </div>
             </div>
         </div>
@@ -85,9 +89,14 @@ $heightseox = "115";
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="text-dark-gray fw-700 h2 d-block">Cosa facciamo</span>
-                    <p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio.</p>
-                    <p>Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
+                    <span class="text-dark-gray fw-700 h2 d-block">Lavorazioni in alluminio su misura</span>
+                    <p class="mb-40px sm-mb-25px">Esseciesse Italia è specializzata nelle <strong>lavorazioni in</strong> <a href="<?= $pathindex ?>alluminio" class="text-link">alluminio e leghe affini</a>,
+                        con un’attenzione particolare alla precisione e alla qualità. Grazie a
+                        pantografi e centri di lavoro CNC all’avanguardia, <strong>realizziamo</strong> <a class="text-link" href="<?= $pathindex ?>lavori">componenti su disegno</a>
+                        in piccole, medie e grandi serie, pronti per il montaggio.</p>
+                    <p>La nostra <a href="<?= $pathindex ?>azienda" class="text-link">esperienza</a> ci permette di offrire soluzioni flessibili e personalizzate
+                        con consegne sempre puntuali, per vari settori industriali: packaging, nautico,
+                        automotive, alimentare e industriale.</p>
                     <div class="mt-40px">
                         <a href="<?= $pathindex ?>azienda" class="btn-esseciesse-primary">
                             <span>su di noi</span>
@@ -105,7 +114,7 @@ $heightseox = "115";
                     </div>
                     <div class="feature-box-content">
                         <span class="d-inline-block h4 fw-700 mb-5px">Puntualità</span>
-                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+                        <p class="w-80 xl-w-90 lg-w-100">Consegne rapide e puntuali, preventivi gestiti in giornata</p>
                     </div>
                 </div>
             </div>
@@ -118,7 +127,7 @@ $heightseox = "115";
                     </div>
                     <div class="feature-box-content">
                         <span class="d-inline-block h4 fw-700 mb-5px">Flessibilità</span>
-                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+                        <p class="w-80 xl-w-90 lg-w-100">Produzioni personalizzate secondo le esigenze del cliente</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +140,7 @@ $heightseox = "115";
                     </div>
                     <div class="feature-box-content">
                         <span class="d-inline-block h4 fw-700 mb-5px">Lavori su misura</span>
-                        <p class="w-80 xl-w-90 lg-w-100">Lorem ipsum dolor sit amet tempo</p>
+                        <p class="w-80 xl-w-90 lg-w-100">Componenti in alluminio realizzati su disegno dedicato</p>
                     </div>
                 </div>
             </div>
@@ -176,10 +185,11 @@ $heightseox = "115";
         <div class="container">
             <div class="row align-items-start mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5 md-mb-30px">
-                    <h2 class="fw-700 lh-70 mb-0">Sbircia qui i nostri lavori migliori</h2>
+                    <h2 class="fw-700 lh-70 mb-0">Guarda le nostre lavorazioni in alluminio</h2>
                 </div>
                 <div class="col-lg-4 offset-xl-1 last-paragraph-no-margin md-mb-30px">
-                    <p>Lavorazioni tradizionali con centri di lavoro CNC e pantografi CNC, per produzioni più precise.</p>
+                    <p>Lavorazioni dell’alluminio con centri di lavoro CNC e pantografi CNC, per la
+                        massima precisione in ogni componente.</p>
                     <div class="mt-5">
                         <a href="<?= $pathindex ?>lavori" class="btn-esseciesse-primary">
                             <span>Vedi di più</span>
@@ -194,7 +204,7 @@ $heightseox = "115";
                             <div class="swiper-wrapper">
                                 <? $labels = ["automotive", "nautico", "packaging", "alimentare"] ?>
                                 <? for ($i = 0; $i < count($labels) * 2; $i++): ?>
-                                    <? $imgPath= $pathindex . "assets/images/home/prodotti/prodotti-0". ($i+1) . ".jpg" ?>
+                                    <? $imgPath = $pathindex . "assets/images/home/prodotti/prodotti-0" . ($i + 1) . ".jpg" ?>
                                     <? $index = $i % count($labels) ?>
                                     <!-- start slider item -->
                                     <div class="swiper-slide">

@@ -8457,6 +8457,17 @@ header.sticky .left-sidebar-nav .navbar-nav .nav-link {
   left: 75px;
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.2);
 }
+
+.text-link{
+  color:#002fff;
+  text-decoration: underline;
+  transition: none;
+}
+
+.text-link:hover{
+  color:#002fff !important;
+  text-decoration: underline;
+}
 .left-modern-menu .left-modern-header.show .navbar-toggler-line:nth-child(1) {
   top: 7px;
   width: 0%;

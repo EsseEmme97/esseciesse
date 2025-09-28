@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "titolo";
-$descriptionseo = "descrizione";
+$titleseo = "Alluminio e le sue leghe | Esseciesse Italia";
+$descriptionseo = "Esseciesse Italia lavora leghe di alluminio selezionate,
+offrendo componenti di precisione su misura con eccellenti caratteristiche
+meccaniche. Scopri di più!";
 $image = "/assets/img/global/logo.jpg";
 $widthseo = "400";
 $heightseox = "115";
@@ -44,7 +46,7 @@ $heightseox = "115";
 		style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?= $pathindex ?>assets/images/lavorazioni/header/lavorazioni-header.jpg');">
 		<div class="container h-100 d-flex flex-column justify-content-center">
 			<span class="text-uppercase text-center text-white">lavorazioni alluminio e leghe</span>
-			<h1 class="text-center text-uppercase">Alluminio</h1>
+			<h1 class="text-center text-uppercase">ALLUMINIO DI PRECISIONE</h1>
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
@@ -61,8 +63,16 @@ $heightseox = "115";
 				</div>
 				<div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 					<span class="text-dark-gray h2 d-block">Cenni biografici</span>
-					<p class="mb-40px sm-mb-25px">Siamo molto attenti alle esigenze del cliente ed ai problemi del mercato: collaboriamo con altre aziende del territorio per poter fornire al cliente velocità nella consegna, particolari molto precisi e finiti, già pronti al montaggio. </p>
-					<p class="mb-0">Riusciamo a gestire commesse particolarmente urgenti e spediamo rapidamente in tutta Italia.</p>
+					<p class="mb-40px sm-mb-25px"><a class="text-link" href="<?= $pathindex ?>">Esseciesse Italia</a> lavora <strong>leghe di alluminio selezionate</strong>, garantendo
+						componenti precisi e resistenti grazie a processi avanzati di lavorazione CNC
+						dell’alluminio. La nostra esperienza copre differenti tipologie di lega
+						d’alluminio e combinazioni, permettendo di ottenere risultati affidabili anche
+						per applicazioni industriali complesse. Con una profonda conoscenza della
+						composizione dell’alluminio e delle caratteristiche meccaniche delle sue
+						leghe, realizziamo componenti su misura utilizzando leghe quali: <strong>6082, 5083,
+							7075, 7022 e alluminio nautico</strong> .</p>
+					<p class="mb-0">Le nostre soluzioni garantiscono affidabilità e resistenza in diversi settori:
+						valorizziamo ogni progetto con <strong>leghe in alluminio di alta qualità</strong>.</p>
 				</div>
 			</div>
 		</div>
@@ -93,25 +103,127 @@ $heightseox = "115";
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			<div class="container">
 				<div class="row mt-5">
-					<? for ($i = 1; $i <= 8; $i++): ?>
+				<!-- start item -->
+				<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+					<div class="row g-0 align-items-center text-center text-sm-start">
+						<div class="col-12">
+							<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
+						</div>
+						<div class="col-sm-1 text-center xs-mt-20px">
+							<span class="text-dark-gray fs-16 ls-minus-1px fw-600">01</span>
+						</div>
+						<div class="col-sm-3 offset-sm-1">
+							<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio 6082</span>
+						</div>
+						<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
+							<p class="w-95 sm-w-100">Apprezzata per la sua ottima resistenza meccanica e alla corrosione. È
+								ideale per applicazioni strutturali, componenti meccanici e settori come
+								automotive e costruzioni.</p>
+						</div>
+					</div>
+					<!-- end item -->
+
+				<!-- start item -->
+				<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+					<div class="row g-0 align-items-center text-center text-sm-start">
+						<div class="col-12">
+							<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
+						</div>
+						<div class="col-sm-1 text-center xs-mt-20px">
+							<span class="text-dark-gray fs-16 ls-minus-1px fw-600">02</span>
+						</div>
+						<div class="col-sm-3 offset-sm-1">
+							<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio 5083</span>
+						</div>
+						<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
+							<p class="w-95 sm-w-100">Si distingue per l’elevata resistenza all’acqua marina e agli agenti chimici: per
+								questo, è particolarmente indicata per applicazioni nautiche. Disponibile sia in
+								lastre fresate, sia come alluminio 5083 fuso.</p>
+						</div>
+					</div>
+					<!-- end item -->
+
+				<!-- start item -->
+				<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+					<div class="row g-0 align-items-center text-center text-sm-start">
+						<div class="col-12">
+							<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
+						</div>
+						<div class="col-sm-1 text-center xs-mt-20px">
+							<span class="text-dark-gray fs-16 ls-minus-1px fw-600">03</span>
+						</div>
+						<div class="col-sm-3 offset-sm-1">
+							<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio 5083</span>
+						</div>
+						<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
+							<p class="w-95 sm-w-100">Si distingue per l’elevata resistenza all’acqua marina e agli agenti chimici: per
+								questo, è particolarmente indicata per applicazioni nautiche. Disponibile sia in
+								lastre fresate, sia come alluminio 5083 fuso.</p>
+						</div>
+					</div>
+					<!-- end item -->
+
+				<!-- start item -->
+				<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+					<div class="row g-0 align-items-center text-center text-sm-start">
+						<div class="col-12">
+							<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
+						</div>
+						<div class="col-sm-1 text-center xs-mt-20px">
+							<span class="text-dark-gray fs-16 ls-minus-1px fw-600">04</span>
+						</div>
+						<div class="col-sm-3 offset-sm-1">
+							<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio 7075</span>
+						</div>
+						<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
+							<p class="w-95 sm-w-100">È caratterizzata da eccellenti proprietà meccaniche e durezza. Utilizzata in
+								settori ad alte prestazioni come l’aeronautico e l’automotive, unisce
+								resistenza e leggerezza.</p>
+						</div>
+					</div>
+					<!-- end item -->
+
+					<!-- start item -->
+					<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+						<div class="row g-0 align-items-center text-center text-sm-start">
+							<div class="col-12">
+								<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
+							</div>
+							<div class="col-sm-1 text-center xs-mt-20px">
+								<span class="text-dark-gray fs-16 ls-minus-1px fw-600">05</span>
+							</div>
+							<div class="col-sm-3 offset-sm-1">
+								<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio 7022</span>
+							</div>
+							<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
+								<p class="w-95 sm-w-100">Offre un ottimo equilibrio tra resistenza, lavorabilità e stabilità dimensionale. È
+									usata per stampi, componenti meccanici complessi e applicazioni dove
+									servono robustezza e precisione.</p>
+							</div>
+						</div>
+						<!-- end item -->
+
+						<!-- start item -->
 						<div class="col-12" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 							<div class="row g-0 align-items-center text-center text-sm-start">
 								<div class="col-12">
 									<div class="separator-line-5px w-100 bg-medium-gray opacity-3 bg-sliding-line"></div>
 								</div>
 								<div class="col-sm-1 text-center xs-mt-20px">
-									<span class="text-dark-gray fs-16 ls-minus-1px fw-600"><?= "0$i" ?></span>
+									<span class="text-dark-gray fs-16 ls-minus-1px fw-600">06</span>
 								</div>
 								<div class="col-sm-3 offset-sm-1">
-									<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Lega di alluminio</span>
+									<span class="fw-600 text-dark-gray fs-22 ls-minus-05px">Alluminio nautico</span>
 								</div>
 								<div class="col-sm-7 p-35px sm-p-25px xs-p-20px xs-pt-10px last-paragraph-no-margin">
-									<p class="w-95 sm-w-100">We are excited for our work and how it positively impacts clients. With over 12 years of experience we have been constantly providing solutions.</p>
+									<p class="w-95 sm-w-100">Lega progettata per resistere all’ambiente salino e alle sollecitazioni tipiche
+										del settore marino. Assicura affidabilità, durata e leggerezza in ogni
+										applicazione navale.</p>
 								</div>
 							</div>
-						<? endfor; ?>
-						</div
-							</div>
+							<!-- end item -->
+						</div>
+					</div>
 				</div>
 			</div>
 	</section>

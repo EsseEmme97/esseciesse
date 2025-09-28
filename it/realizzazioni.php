@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "titolo";
-$descriptionseo = "descrizione";
+$titleseo = "Componenti in alluminio su disegno | Esseciesse Italia";
+$descriptionseo = "Scopri i nostri componenti in alluminio di precisione,
+realizzati su disegno con pantografi e centri di lavoro CNC. Affidati a
+lavorazioni di qualità e su misura!";
 $image = "/assets/img/global/logo.jpg";
 $widthseo = "400";
 $heightseox = "115";
@@ -44,7 +46,7 @@ $heightseox = "115";
 		style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?= $pathindex ?>assets/images/realizzazioni/header/realizzazioni-header.jpg');">
 		<div class="container h-100 d-flex flex-column justify-content-center">
 			<span class="text-uppercase text-center text-white">PROGETTI SU MISURA PER OGNI ESIGENZA</span>
-			<h1 class="text-center text-uppercase">Lavori</h1>
+			<h1 class="text-center text-uppercase">LAVORAZIONI DI COMPONENTI IN ALLUMINIO</h1>
 		</div>
 	</section>
 	<!-- ==================== End navbar ==================== -->
@@ -54,7 +56,10 @@ $heightseox = "115";
 			<div class="row">
 				<div class="col-12">
 					<span class="text-dark-gray h2 fw-400 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px" data-shadow-animation="true" data-animation-delay="500">
-						Grazie ad , <span class="text-highlight">impianti di produzione ad alta tecnologia<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> realizziamo particolari a disegno di varie dimensioni, anche in tirature limitate, dal piccolo particolare a piastre fino a 4000*2000 mm.</span>
+						Grazie a <span class="text-highlight">tecnologie di ultima generazione,<span class="bg-dark-gray h-3px bottom-0px d-none d-lg-block separator-animation"></span></span> realizziamo componenti in
+						<a href="<?= $pathindex?>alluminio" class="text-link">alluminio</a> di precisione su disegno. Con pantografi e centri di lavoro CNC per
+						la fresatura, lavoriamo sia piccoli componenti che grandi piastre, fino a
+						4000x2000 mm.</span>
 				</div>
 			</div>
 		</div>
@@ -111,11 +116,11 @@ $heightseox = "115";
 					<ul class="portfolio-modern portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
 						<li class="grid-sizer"></li>
 						<!-- start portfolio item -->
-						 <? for($i=1;$i<18;$i++): ?>
-						<? $imageIndex= $i<10 ? "0$i" : $i;
-							$imageFullPath= $pathindex . "assets/images/realizzazioni/prodotti/prodotti-". $imageIndex . ".jpg"
-						?>
-						<li class="grid-item transition-inner-all">
+						<? for ($i = 1; $i < 18; $i++): ?>
+							<? $imageIndex = $i < 10 ? "0$i" : $i;
+							$imageFullPath = $pathindex . "assets/images/realizzazioni/prodotti/prodotti-" . $imageIndex . ".jpg"
+							?>
+							<li class="grid-item transition-inner-all">
 								<div class="portfolio-box">
 									<div class="portfolio-image border-radius-4px">
 										<img src="<?= $imageFullPath ?>" alt="immagine servizio" />
@@ -129,8 +134,8 @@ $heightseox = "115";
 										</div>
 									</div>
 								</div>
-						</li>
-						<!-- end portfolio item -->
+							</li>
+							<!-- end portfolio item -->
 						<? endfor; ?>
 					</ul>
 				</div>
@@ -139,13 +144,13 @@ $heightseox = "115";
 	</section>
 
 	<section class="p-0 bg-orange">
-        <div class="container">
-            <div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
-                <p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
-                <a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
-            </div>
-        </div>
-    </section>
+		<div class="container">
+			<div class="d-lg-flex py-3 py-lg-0 text-center text-lg-start justify-content-lg-between">
+				<p class="h3 text-white fw-600 mt-25px">Noi siamo pronti a metterci in gioco. E tu?</p>
+				<a href="<?= $pathindex ?>contatti" class="text-decoration-line-bottom d-block d-md-inline h3 text-white fw-600 mt-25px mb-25px">Contattaci ora</a>
+			</div>
+		</div>
+	</section>
 
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once("../inc/htmlcx/footer-ita.php") ?>
